@@ -5,8 +5,8 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     [SerializeField] float speed = 20f;
-    [SerializeField]Joystick joystick;
-
+    //[SerializeField] Joystick joystick;
+    public Joystick joystick;
 
     Rigidbody rb;
 
