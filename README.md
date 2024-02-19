@@ -20,3 +20,8 @@ Box, Item Prefabs, Battle Arena Scene
 -----------------------
 #### FourthCommit
 Scene connect, Multi user spawn
+
+-----------------------
+#### FifthCommit
+1. Player Prefab modification
+2. Shooting function
