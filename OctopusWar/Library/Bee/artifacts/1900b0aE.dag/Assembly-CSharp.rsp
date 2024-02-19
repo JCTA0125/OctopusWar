@@ -396,6 +396,8 @@
 "Assets/Photon/PhotonLibs/WebSocket/WebSocket.cs"
 "Assets/Photon/PhotonRealtime/Demos/DemoLoadBalancing/ConnectAndJoinRandomLb.cs"
 "Assets/Scripts/BoxItemController.cs"
+"Assets/Scripts/Bullet.cs"
+"Assets/Scripts/HealthBarScript.cs"
 "Assets/Scripts/LobbyManager.cs"
 "Assets/Scripts/Movement.cs"
 "Assets/Scripts/MultiplayerGame.cs"
