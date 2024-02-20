@@ -25,3 +25,10 @@ Scene connect, Multi user spawn
 #### SeventhCommit
 1. Player Prefab modification
 2. Shooting function
+
+-----------------------
+#### NinthCommit
+1. lag
+2. RPC For MultiGame
+
+
