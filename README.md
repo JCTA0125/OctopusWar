@@ -22,6 +22,6 @@ Box, Item Prefabs, Battle Arena Scene
 Scene connect, Multi user spawn
 
 -----------------------
-#### FifthCommit
+#### SeventhCommit
 1. Player Prefab modification
 2. Shooting function
