@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
 using TMPro;
+using UnityEngine.UI;
 
 public class PlayerSetup : MonoBehaviourPun
 {
+    //public TextMeshPro playerNameText;
     public TextMeshProUGUI playerNameText;
 
     // Start is called before the first frame update
@@ -13,13 +15,33 @@ public class PlayerSetup : MonoBehaviourPun
     {
         if (photonView.IsMine)
         {
-            transform.GetComponent<Movement>().enabled = true;
-            transform.GetComponent<Movement>().joystick.gameObject.SetActive(true);
+            Transform jcanvas = transform.Find("JCanvas");
+            transform.Find("Player").GetComponent<Movement>().enabled = true;
+
+            if (jcanvas != null)
+            {
+                jcanvas.gameObject.SetActive(true);
+            }
+            else
+            {
+                Debug.Log("We can't find ur JCanvas");
+            }
+
+
         }
         else
         {
-            transform.GetComponent<Movement>().enabled = false;
-            transform.GetComponent<Movement>().joystick.gameObject.SetActive(false);
+            Transform jcanvas = transform.Find("JCanvas");
+
+            if (jcanvas != null)
+            {
+                jcanvas.gameObject.SetActive(false);
+            }
+            else
+            {
+                Debug.Log("We can't find ur JCanvas");
+            }
+            transform.Find("Player").GetComponent<Movement>().enabled = false; //여기에서 오류 생김
         }
         SetPlayerName();
     }

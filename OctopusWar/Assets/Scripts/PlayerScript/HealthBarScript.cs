@@ -1,11 +1,14 @@
+using Photon.Pun;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class HealthBarScript : MonoBehaviour
+public class HealthBarScript : MonoBehaviourPun
 {
     [SerializeField] Slider hpbar;
+    [SerializeField] TextMeshProUGUI playerNameText;
     [SerializeField] Transform player;
 
     private float maxHp = 100;
@@ -24,6 +27,7 @@ public class HealthBarScript : MonoBehaviour
         newPosition.x = player.position.x;
         newPosition.z = player.position.z;
         transform.position = newPosition;
+        playerNameText.transform.position = newPosition;
 
         HandleHp();
     }
@@ -31,6 +35,8 @@ public class HealthBarScript : MonoBehaviour
     {
         hpbar.value = Mathf.Lerp(hpbar.value, (float)curHp / (float)maxHp, Time.deltaTime); 
     }
+
+    [PunRPC]
     public void GetDamage()
     {
         if (curHp >= 10)

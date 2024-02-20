@@ -1,6 +1,8 @@
+using Photon.Pun;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
 
 public class Bullet : MonoBehaviour
 {
@@ -13,28 +15,26 @@ public class Bullet : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        
         if (collision.gameObject.tag == "Player")
         {
+            Debug.Log("you just bump into the Player!");
+            /*
             Destroy(gameObject);
             //Debug.Log(collision.gameObject.name);
 
-            Transform child = collision.transform.parent.Find("HCanvas").Find("HP"); //Hp를 감소시킨다.
-
-            if (child != null)
+            if (collision.collider.gameObject.GetComponent<PhotonView>().IsMine) 
             {
-                HealthBarScript healthBarScript = child.GetComponent<HealthBarScript>();
-                Debug.Log("found it");
-                healthBarScript.GetDamage();
+                //나보다 속도가 느린 스피너에게 데미지를 입힘.
+                collision.collider.gameObject.GetComponent<PhotonView>().RPC("GetDamage", RpcTarget.AllBuffered); 
             }
-            else
-            {
-                Debug.Log("can't find script!");
-            }
+            */
 
         }
         else if (collision.gameObject.tag == "Wall")
         {
             Debug.Log("you just bump into the wall!");
         }
+        
     }
 }

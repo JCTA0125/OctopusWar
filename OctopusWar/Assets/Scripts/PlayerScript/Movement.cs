@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using UnityEngine;
-
+using Photon.Pun;
 public class Movement : MonoBehaviour
 {
     [Header("Player")]
@@ -12,8 +12,8 @@ public class Movement : MonoBehaviour
     Vector3 moveVec;
 
     [Header("bullet")]
-        [SerializeField] float ballSpeed = 2f;
-        [SerializeField] GameObject ball;
+        [SerializeField] float bulletSpeed = 2f;
+        [SerializeField] GameObject bullet;
         [SerializeField] Transform startPosition;
         [SerializeField] float bulletTime;
     bool isButton;
@@ -76,14 +76,14 @@ public class Movement : MonoBehaviour
 
         private IEnumerator FireBulletCoroutine() //총알을 발사하는 함수
         {
-            var a = Instantiate(ball, startPosition.position, startPosition.rotation);
+            var a = PhotonNetwork.Instantiate("Bullet", startPosition.position, startPosition.rotation);
 
             rb.constraints = RigidbodyConstraints.FreezePosition;                      
-            a.GetComponent<Rigidbody>().AddForce(startPosition.transform.forward * ballSpeed);
+            a.GetComponent<Rigidbody>().AddForce(startPosition.transform.forward * bulletSpeed);
             rb.constraints = ~RigidbodyConstraints.FreezePosition;
 
             yield return new WaitForSeconds(bulletTime);
-            Destroy(a.gameObject);
+            PhotonNetwork.Destroy(a.gameObject);
 
         }
 

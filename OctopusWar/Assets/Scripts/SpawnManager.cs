@@ -29,8 +29,8 @@ public class SpawnManager : MonoBehaviourPunCallbacks
             if (PhotonNetwork.LocalPlayer.CustomProperties.TryGetValue(MultiplayerGame.PLAYER_SELECTION_NUMBER, out playerSelectionNumber))
             {
                 Debug.Log("Player selection number is " + (int)playerSelectionNumber);
-                //int randomSpawnPoint = Random.Range(0, spawnPositions.Length - 1);
-                //Vector3 instantiatePosition = spawnPositions[randomSpawnPoint].position;
+
+
                 Vector3 instantiatePosition = spawnPositions[0].position;
 
                 if (PhotonNetwork.CurrentRoom.PlayerCount == 1)
