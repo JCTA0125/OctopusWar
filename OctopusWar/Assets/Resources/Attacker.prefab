@@ -1206,6 +1206,10 @@ PrefabInstance:
       propertyPath: joystick
       value: 
       objectReference: {fileID: 3040555299372813444}
+    - target: {fileID: 3034939152822614936, guid: bb7d821c5ebad0a448ad316313b7ae80, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.047
+      objectReference: {fileID: 0}
     - target: {fileID: 7607642539990069607, guid: bb7d821c5ebad0a448ad316313b7ae80, type: 3}
       propertyPath: m_Name
       value: Player
@@ -1272,8 +1276,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.7365508, y: 1.5695565, z: 0.49792072}
-  m_Center: {x: -0.021923685, y: 0.95209354, z: -0.054436337}
+  m_Size: {x: 0.7365508, y: 1.513932, z: 0.49792072}
+  m_Center: {x: -0.021923691, y: 0.9799057, z: -0.05443634}
 --- !u!54 &4055011468918126512
 Rigidbody:
   m_ObjectHideFlags: 0

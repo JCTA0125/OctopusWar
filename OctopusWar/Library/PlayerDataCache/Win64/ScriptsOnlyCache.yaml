@@ -38,7 +38,7 @@ ScriptsOnlyBuild:
     - Photon.Pun.Demo.SlotRacer.PlayerControl
     - Photon.Pun.Demo.SlotRacer.Utils.SplineWalker
     PhotonUnityNetworking.Editor.dll:
-    - Photon.Pun.PhotonViewInspector
+    - Photon.Pun.PunSceneSettings
     PhotonUnityNetworking.dll:
     - Photon.Pun.PhotonView
     - Photon.Pun.ServerSettings
@@ -218,19 +218,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 20378}
     - Class: 114
-      Script: {instanceID: 21012}
+      Script: {instanceID: 20736}
     - Class: 114
-      Script: {instanceID: 21114}
+      Script: {instanceID: 21014}
     - Class: 114
-      Script: {instanceID: 21440}
+      Script: {instanceID: 21116}
     - Class: 114
-      Script: {instanceID: 21700}
+      Script: {instanceID: 21442}
     - Class: 114
-      Script: {instanceID: 22768}
+      Script: {instanceID: 21702}
     - Class: 114
-      Script: {instanceID: 32194}
+      Script: {instanceID: 22374}
     - Class: 114
-      Script: {instanceID: 63914}
+      Script: {instanceID: 22772}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -285,9 +285,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17770}
     - Class: 114
-      Script: {instanceID: 21440}
+      Script: {instanceID: 21442}
     - Class: 114
-      Script: {instanceID: 21700}
+      Script: {instanceID: 21702}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
@@ -326,9 +326,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 20378}
     - Class: 114
-      Script: {instanceID: 21114}
+      Script: {instanceID: 21116}
     - Class: 114
-      Script: {instanceID: 21440}
+      Script: {instanceID: 21442}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -387,9 +387,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 20378}
     - Class: 114
-      Script: {instanceID: 21114}
+      Script: {instanceID: 21116}
     - Class: 114
-      Script: {instanceID: 21440}
+      Script: {instanceID: 21442}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -498,33 +498,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 20726}
     - Class: 114
-      Script: {instanceID: 20768}
+      Script: {instanceID: 20736}
     - Class: 114
-      Script: {instanceID: 21012}
+      Script: {instanceID: 20770}
     - Class: 114
-      Script: {instanceID: 21114}
+      Script: {instanceID: 21014}
     - Class: 114
-      Script: {instanceID: 21440}
+      Script: {instanceID: 21116}
     - Class: 114
-      Script: {instanceID: 21448}
+      Script: {instanceID: 21442}
     - Class: 114
-      Script: {instanceID: 21500}
+      Script: {instanceID: 21450}
     - Class: 114
-      Script: {instanceID: 22048}
+      Script: {instanceID: 21502}
     - Class: 114
-      Script: {instanceID: 22566}
+      Script: {instanceID: 22050}
     - Class: 114
-      Script: {instanceID: 22768}
+      Script: {instanceID: 22374}
     - Class: 114
-      Script: {instanceID: 22924}
+      Script: {instanceID: 22570}
     - Class: 114
-      Script: {instanceID: 23052}
+      Script: {instanceID: 22772}
     - Class: 114
-      Script: {instanceID: 23354}
+      Script: {instanceID: 22928}
     - Class: 114
-      Script: {instanceID: 32194}
+      Script: {instanceID: 23056}
     - Class: 114
-      Script: {instanceID: 63914}
+      Script: {instanceID: 23358}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1806,6 +1806,12 @@ ScriptsOnlyBuild:
     className: PlayerControl
   - hash:
       serializedVersion: 2
+      Hash: c23664189110c2f3ee6543b87bc6bdc5
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Synchronization
+  - hash:
+      serializedVersion: 2
       Hash: a1df8e53b11f4dea858eed8966c6b1a1
     assemblyName: PhotonUnityNetworking.Demos
     namespaceName: Photon.Pun.Demo.SlotRacer.Utils
@@ -2268,6 +2274,12 @@ ScriptsOnlyBuild:
     className: FriendItem
   - hash:
       serializedVersion: 2
+      Hash: c23664189110c2f3ee6543b87bc6bdc5
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: BulletSynchronization
+  - hash:
+      serializedVersion: 2
       Hash: 90474884c7db4ebcdbd22848bc5f641d
     assemblyName: PhotonUnityNetworking.Utilities
     namespaceName: Photon.Pun.UtilityScripts
@@ -2578,18 +2590,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: c23664189110c2f3ee6543b87bc6bdc5
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: Synchronization
-  - hash:
-      serializedVersion: 2
-      Hash: c23664189110c2f3ee6543b87bc6bdc5
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: BulletSynchronization
   platform: 19
   scenePathNames:
   - Assets/Scenes/Scene_PlayerSelection.unity
