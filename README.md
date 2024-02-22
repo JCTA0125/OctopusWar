@@ -5,30 +5,33 @@
 
 #Commit Description
 =======================
-#### FirstCommit 
+#### Commit1 
 1. ArenaStructure Prefab
 2. MainCamera Location Changes
 
 -----------------------
-#### SecondCommit 
+#### Commit2 
 Character Prefabs with Joystick Control and Movement
 
 -----------------------
-#### ThirdCommit
+#### Commit3
 Box, Item Prefabs, Battle Arena Scene
 
 -----------------------
-#### FourthCommit
+#### Commit4
 Scene connect, Multi user spawn
 
 -----------------------
-#### SeventhCommit
+#### Commit7
 1. Player Prefab modification
 2. Shooting function
 
 -----------------------
-#### NinthCommit
+#### Commit9
 1. lag
 2. RPC For MultiGame
 
+-----------------------
+#### Commit10
+1. starposition Location
 
