@@ -83,9 +83,11 @@ public class Movement : MonoBehaviour
             rb.constraints = ~RigidbodyConstraints.FreezePosition;
 
             yield return new WaitForSeconds(bulletTime);
+            if(a != null) //총알이 player 에게 맞아 없어지는 상황이 아니라면 
+            {
             PhotonNetwork.Destroy(a.gameObject);
-
-        }
+            }
+    }
 
         public void ButtonClick() //bullet 생성시간을 확인하고, firebullet을 실행하는 함수
         {

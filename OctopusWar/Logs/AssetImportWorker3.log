@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/release' branch; Version is '2022.3.12f1 (4fe6e059c7ef) revision 5236448'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ko' Physical Memory: 24249 MB
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'ko' Physical Memory: 15943 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-D:\Program Files\Unity\Hub\Editor\2022.3.12f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2022.3.12f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker3
 -projectPath
-D:/UnityProject/OctopusWar/OctopusWar
+C:/Users/kde78/Documents/GitHub/OctopusWar/OctopusWar
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-53894
-Successfully changed project path to: D:/UnityProject/OctopusWar/OctopusWar
-D:/UnityProject/OctopusWar/OctopusWar
+56037
+Successfully changed project path to: C:/Users/kde78/Documents/GitHub/OctopusWar/OctopusWar
+C:/Users/kde78/Documents/GitHub/OctopusWar/OctopusWar
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,70 +49,74 @@ D:/UnityProject/OctopusWar/OctopusWar
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [22676] Host "[IP] 192.168.35.141 [Port] 0 [Flags] 2 [Guid] 3978740863 [EditorId] 3978740863 [Version] 1048832 [Id] WindowsEditor(7,YOON) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [25484] Host "[IP] 192.168.187.1 [Port] 0 [Flags] 2 [Guid] 94836796 [EditorId] 94836796 [Version] 1048832 [Id] WindowsEditor(7,BOOK-0D3JPFL73H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [22676] Host "[IP] 192.168.35.141 [Port] 0 [Flags] 2 [Guid] 3978740863 [EditorId] 3978740863 [Version] 1048832 [Id] WindowsEditor(7,YOON) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [25484] Host "[IP] 192.168.187.1 [Port] 0 [Flags] 2 [Guid] 94836796 [EditorId] 94836796 [Version] 1048832 [Id] WindowsEditor(7,BOOK-0D3JPFL73H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 17.91 ms, found 4 plugins.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 19.97 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.12f1 (4fe6e059c7ef)
-[Subsystems] Discovering subsystems at path D:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/UnityProject/OctopusWar/OctopusWar/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/kde78/Documents/GitHub/OctopusWar/OctopusWar/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce MX450 (ID=0x1f97)
-    Vendor:   NVIDIA
-    VRAM:     1928 MB
-    Driver:   27.21.14.5256
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0xa7a0)
+    Vendor:   Intel
+    VRAM:     7971 MB
+    Driver:   31.0.101.4314
 Initialize mono
-Mono path[0] = 'D:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'D:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56340
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56668
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: D:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: D:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.011603 seconds.
-- Loaded All Assemblies, in  0.512 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.014342 seconds.
+- Loaded All Assemblies, in  0.337 seconds
 Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 483 ms
+Android Extension - Scanning For ADB Devices 347 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.928 seconds
-Domain Reload Profiling: 1440ms
-	BeginReloadAssembly (145ms)
+- Finished resetting the current domain, in  0.660 seconds
+Domain Reload Profiling: 996ms
+	BeginReloadAssembly (97ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (51ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (77ms)
-	LoadAllAssembliesAndSetupDomain (220ms)
-		LoadAssemblies (144ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (127ms)
+		LoadAssemblies (96ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (217ms)
-			TypeCache.Refresh (215ms)
-				TypeCache.ScanAssembly (195ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
+		AnalyzeDomain (124ms)
+			TypeCache.Refresh (123ms)
+				TypeCache.ScanAssembly (111ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (928ms)
+	FinalizeReload (660ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (846ms)
+		SetupLoadedEditorAssemblies (606ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (639ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (474ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (139ms)
-			ProcessInitializeOnLoadMethodAttributes (61ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (89ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,9 +124,10 @@ Domain Reload Profiling: 1440ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.988 seconds
-Refreshing native plugins compatible for Editor in 6.54 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.729 seconds
+Refreshing native plugins compatible for Editor in 5.57 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -130,53 +135,54 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.890 seconds
-Domain Reload Profiling: 1877ms
-	BeginReloadAssembly (197ms)
+- Finished resetting the current domain, in  0.619 seconds
+Domain Reload Profiling: 1345ms
+	BeginReloadAssembly (131ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (51ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (57ms)
-	LoadAllAssembliesAndSetupDomain (666ms)
-		LoadAssemblies (450ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (519ms)
+		LoadAssemblies (358ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (335ms)
-			TypeCache.Refresh (289ms)
-				TypeCache.ScanAssembly (261ms)
-			ScanForSourceGeneratedMonoScriptInfo (31ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (891ms)
+		AnalyzeDomain (239ms)
+			TypeCache.Refresh (208ms)
+				TypeCache.ScanAssembly (190ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (619ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (638ms)
+		SetupLoadedEditorAssemblies (477ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (35ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (91ms)
-			ProcessInitializeOnLoadAttributes (457ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (306ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 7.99 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 5.98 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4207 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 68 unused Assets / (64.4 KB). Loaded Objects now: 4665.
-Memory consumption went from 157.7 MB to 157.6 MB.
-Total: 5.925900 ms (FindLiveObjects: 0.429700 ms CreateObjectMapping: 0.319300 ms MarkObjects: 4.578100 ms  DeleteObjects: 0.596400 ms)
+Unloading 4208 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 68 unused Assets / (64.6 KB). Loaded Objects now: 4666.
+Memory consumption went from 158.4 MB to 158.3 MB.
+Total: 3.243800 ms (FindLiveObjects: 0.179700 ms CreateObjectMapping: 0.086400 ms MarkObjects: 2.840000 ms  DeleteObjects: 0.136500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/GetDamage.cs: 58b0839e104cdc1db54eb060b6393857 -> 
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
@@ -186,198 +192,6 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 501918.592689 seconds.
-  path: Assets/UI/Spinner Selection Screen/Button_ReadyPressed.png
-  artifactKey: Guid(a14e5a92337a1c847963459373735128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/Spinner Selection Screen/Button_ReadyPressed.png using Guid(a14e5a92337a1c847963459373735128) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e4b17fd624ac93df9aafcb3b113276e') in 0.108734 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Sweet Land GUI/Sprites/Buttons/250px/Button_Square_Pink_250px.png
-  artifactKey: Guid(20ae63630a343e140bb218808370bcda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sweet Land GUI/Sprites/Buttons/250px/Button_Square_Pink_250px.png using Guid(20ae63630a343e140bb218808370bcda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a823645c7cc84f4a54425edd89acdef') in 0.030697 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 4.636211 seconds.
-  path: Assets/Sweet Land GUI/Sprites/Scales/Empty_Honeycomb_60px.png
-  artifactKey: Guid(f46e7fccaa0af0d4e99e9d61f79efb23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sweet Land GUI/Sprites/Scales/Empty_Honeycomb_60px.png using Guid(f46e7fccaa0af0d4e99e9d61f79efb23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8da9e62844baad8bc43a5750bb43cec') in 0.041944 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.036579 seconds.
-  path: Assets/Sweet Land GUI/Sprites/Scales/Empty_Trapezoid_60px.png
-  artifactKey: Guid(43bdf6283aecc1746ba8783969c9b796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sweet Land GUI/Sprites/Scales/Empty_Trapezoid_60px.png using Guid(43bdf6283aecc1746ba8783969c9b796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45cec232857a4ac845fd87e9300d30de') in 0.033549 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 1.668031 seconds.
-  path: Assets/UI/EntrySection/EntrySection_complete.png
-  artifactKey: Guid(7099383adb91d2a4e8947f4a2f5bbc1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/EntrySection/EntrySection_complete.png using Guid(7099383adb91d2a4e8947f4a2f5bbc1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92553087481beea4d69056a56cf89458') in 0.041681 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.061058 seconds.
-  path: Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Border_Orange_250px.png
-  artifactKey: Guid(8d12baed1c50a364b8dda26db910b273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Border_Orange_250px.png using Guid(8d12baed1c50a364b8dda26db910b273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b80957288b6e907315dc71fd9d38ebdf') in 0.035474 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.674467 seconds.
-  path: Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Border_Red_250px.png
-  artifactKey: Guid(9e2c12871a38061428af27e322ff2127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Border_Red_250px.png using Guid(9e2c12871a38061428af27e322ff2127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea79891ac98e0623eb2b416ac1b1817') in 0.028680 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.418387 seconds.
-  path: Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Circle_Honey_250px.png
-  artifactKey: Guid(215dbc69a41b1e141b8fdae00035f532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Circle_Honey_250px.png using Guid(215dbc69a41b1e141b8fdae00035f532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1395a1315a2ec8203671d8a49f4d1aca') in 0.028356 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.039834 seconds.
-  path: Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Circle_Pink_250px.png
-  artifactKey: Guid(7e688a3be1a2b6646b105ae94c99a284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Circle_Pink_250px.png using Guid(7e688a3be1a2b6646b105ae94c99a284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225ef31f22b617094223e432a66229b6') in 0.030472 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 1.414419 seconds.
-  path: Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Honeycomb_Honey_250px.png
-  artifactKey: Guid(4ccb9f941a6f9d3448dcf3f54c11f432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Honeycomb_Honey_250px.png using Guid(4ccb9f941a6f9d3448dcf3f54c11f432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '105a625df1fbf7a00f981b3fbfa43763') in 0.034426 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.430949 seconds.
-  path: Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Honeycomb_Red_250px.png
-  artifactKey: Guid(6b92f7abaa90ca04d8a45f863352c7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Honeycomb_Red_250px.png using Guid(6b92f7abaa90ca04d8a45f863352c7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f3e6ec6e706c0cee0d69f9afc75992') in 0.026927 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.630688 seconds.
-  path: Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Square_Orange_250px.png
-  artifactKey: Guid(95332da0e346cb345ac3ece62a649e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Square_Orange_250px.png using Guid(95332da0e346cb345ac3ece62a649e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c73ed51fa3ff2432de99550ba96921af') in 0.030208 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.053734 seconds.
-  path: Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Square_Red_250px.png
-  artifactKey: Guid(23bedb961464d2b4092de591a9e6f7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Square_Red_250px.png using Guid(23bedb961464d2b4092de591a9e6f7b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffac4b333f68cfae1ea6a638407aeeb1') in 0.047041 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.361216 seconds.
-  path: Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Square_Yellow_250px.png
-  artifactKey: Guid(4eade859acaaaa64aa5d5e2fc5867f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Square_Yellow_250px.png using Guid(4eade859acaaaa64aa5d5e2fc5867f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3598db1219c699c1ac2b4957624eb817') in 0.028047 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.048869 seconds.
-  path: Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Trapezoid_Orange_250px.png
-  artifactKey: Guid(b41357f0764f23649b768f8c9a301d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Trapezoid_Orange_250px.png using Guid(b41357f0764f23649b768f8c9a301d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad6a9c11b1500a39ae513ffeb9816cb') in 0.037003 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.412980 seconds.
-  path: Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Trapezoid_White_250px.png
-  artifactKey: Guid(ded19d0d721dc40429acf3d21af699e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sweet Land GUI/Sprites/Frames/250px/Frame_Trapezoid_White_250px.png using Guid(ded19d0d721dc40429acf3d21af699e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b68834bbc1e0f217ab1c24aabf0a7164') in 0.028356 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.031860 seconds.
-  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Sprites/Gradient.png
-  artifactKey: Guid(66efb24ed46044ab8a039599cbc47d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Sprites/Gradient.png using Guid(66efb24ed46044ab8a039599cbc47d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5288aec6952f1b71ef408b9f151317b4') in 0.026262 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Joystick Pack/Sprites/Handles/Handle_Outline_Arrows.png
-  artifactKey: Guid(5eda94a9dcf71e445ad17e3c065d1460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Joystick Pack/Sprites/Handles/Handle_Outline_Arrows.png using Guid(5eda94a9dcf71e445ad17e3c065d1460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93dda231ab9c793437f0bbf2cdc9a8e0') in 0.026982 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.455635 seconds.
-  path: Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Plain.png
-  artifactKey: Guid(097782735540f2d4db5606eae04ae6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Plain.png using Guid(097782735540f2d4db5606eae04ae6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed1ff9a805276d54ccecb28ed8109a7b') in 0.028441 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.750695 seconds.
-  path: Assets/Sweet Land GUI/Sprites/Icons/Icon_Play.png
-  artifactKey: Guid(85b6a6103f7a3e8499b4c0e7891dcb87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sweet Land GUI/Sprites/Icons/Icon_Play.png using Guid(85b6a6103f7a3e8499b4c0e7891dcb87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe3ffc49d19e025c02e460ed6314925') in 0.041057 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Sweet Land GUI/Sprites/Icons/Icon_Settings.png
-  artifactKey: Guid(00280b2b82f0cdd488aed522cbff996c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sweet Land GUI/Sprites/Icons/Icon_Settings.png using Guid(00280b2b82f0cdd488aed522cbff996c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '687f8946d9c992a190aa168ab34a7fa9') in 0.035303 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 2.420961 seconds.
-  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Sprites/PunIcon-White-129.png
-  artifactKey: Guid(56bbc6b42271d4177ac313247f47ac1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Sprites/PunIcon-White-129.png using Guid(56bbc6b42271d4177ac313247f47ac1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8f2a10be780ccecccdd82f38b8f70dc') in 0.039592 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.059678 seconds.
-  path: Assets/Photon/PhotonUnityNetworking/Icons/PunIconApp512.png
-  artifactKey: Guid(7377013011b4c3348809ff574abe799e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon/PhotonUnityNetworking/Icons/PunIconApp512.png using Guid(7377013011b4c3348809ff574abe799e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad7e94bf605ae0a8c5eadbc4da4bf77') in 0.037967 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.859220 seconds.
-  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Sprites/toHub.png
-  artifactKey: Guid(9587663c4d27e47b19a118aabaac4a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/Sprites/toHub.png using Guid(9587663c4d27e47b19a118aabaac4a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c7e4068dd8c77ad3fb1d6b575d8e596') in 0.026915 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
 AssetImportWorker is now disconnected from the server

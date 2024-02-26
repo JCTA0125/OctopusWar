@@ -46,6 +46,7 @@ public class BulletSynchronization : MonoBehaviour, IPunObservable
 
             stream.SendNext(rb.position);
             stream.SendNext(rb.rotation);
+            stream.SendNext(gameObject.activeSelf);
 
             if (synchronizeVelocity)
             {
@@ -62,6 +63,13 @@ public class BulletSynchronization : MonoBehaviour, IPunObservable
         {
             networkedPosition = (Vector3)stream.ReceiveNext();
             networkedRotation = (Quaternion)stream.ReceiveNext();
+
+            //false 일 때만 SetActive 변경함.
+            if (!(bool)stream.ReceiveNext())
+            {
+                gameObject.SetActive(false);
+            }
+
 
             if (isTeleportEnabled)
             {

@@ -13,7 +13,7 @@ public class PlayerSetup : MonoBehaviourPun
     // Start is called before the first frame update
     void Start()
     {
-        if (photonView.IsMine)
+        if (photonView.IsMine) //joystick
         {
             Transform jcanvas = transform.Find("JCanvas");
             transform.Find("Player").GetComponent<Movement>().enabled = true;
@@ -41,7 +41,7 @@ public class PlayerSetup : MonoBehaviourPun
             {
                 Debug.Log("We can't find ur JCanvas");
             }
-            transform.Find("Player").GetComponent<Movement>().enabled = false; //여기에서 오류 생김
+            transform.Find("Player").GetComponent<Movement>().enabled = false; 
         }
         SetPlayerName();
     }

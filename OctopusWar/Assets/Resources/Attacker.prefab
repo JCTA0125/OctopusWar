@@ -725,6 +725,8 @@ MonoBehaviour:
   hpbar: {fileID: 8535921777273766254}
   playerNameText: {fileID: 3678989744284821919}
   player: {fileID: 8176972832155725043}
+  maxHp: 100
+  curHp: 100
 --- !u!1 &6875674424686601451
 GameObject:
   m_ObjectHideFlags: 0
@@ -948,6 +950,7 @@ GameObject:
   - component: {fileID: -1400235335749605856}
   - component: {fileID: 909842438272339910}
   - component: {fileID: 7556203580142697087}
+  - component: {fileID: 650224580463694439}
   m_Layer: 0
   m_Name: Attacker
   m_TagString: Untagged
@@ -1025,6 +1028,18 @@ MonoBehaviour:
   synchronizeAngularVelocity: 1
   isTeleportEnabled: 1
   teleportIfDistanceGreaterThan: 1
+--- !u!114 &650224580463694439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8431898978766230181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc6134ad1c8c3a545a44affe2eaedf3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2300877769518541363
 PrefabInstance:
   m_ObjectHideFlags: 0

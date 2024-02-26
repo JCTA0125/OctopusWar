@@ -5,14 +5,14 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class HealthBarScript : MonoBehaviourPun
+public class HealthBarScript : MonoBehaviour
 {
     [SerializeField] Slider hpbar;
     [SerializeField] TextMeshProUGUI playerNameText;
     [SerializeField] Transform player;
 
-    private float maxHp = 100;
-    private float curHp = 100;
+    public float maxHp = 100;
+    public float curHp = 100;
 
     // Start is called before the first frame update
     void Start()
@@ -36,19 +36,5 @@ public class HealthBarScript : MonoBehaviourPun
         hpbar.value = Mathf.Lerp(hpbar.value, (float)curHp / (float)maxHp, Time.deltaTime); 
     }
 
-    [PunRPC]
-    public void GetDamage()
-    {
-        if (curHp >= 10)
-        {
-            curHp -= 10;
 
-
-        }
-        else
-        {
-            GameObject player = transform.parent.parent.gameObject;
-            Destroy(player);
-        }
-    }
 }
