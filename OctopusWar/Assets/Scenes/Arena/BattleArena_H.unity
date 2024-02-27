@@ -1112,7 +1112,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerPrefabs:
   - {fileID: 8431898978766230181, guid: ac609d2a29920a24c9868411be8f2227, type: 3}
-  - {fileID: 8431898978766230181, guid: ac609d2a29920a24c9868411be8f2227, type: 3}
+  - {fileID: 8431898978766230181, guid: 9abab8147b6108c4b8af70235c7f01a3, type: 3}
   spawnPositions:
   - {fileID: 1099694959}
   - {fileID: 1061205711}

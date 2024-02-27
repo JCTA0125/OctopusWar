@@ -11,8 +11,8 @@ public class HealthBarScript : MonoBehaviour
     [SerializeField] TextMeshProUGUI playerNameText;
     [SerializeField] Transform player;
 
-    public float maxHp = 100;
-    public float curHp = 100;
+    [SerializeField] public float maxHp = 100;
+    [SerializeField] public float curHp = 100;
 
     // Start is called before the first frame update
     void Start()
@@ -23,11 +23,17 @@ public class HealthBarScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 newPosition = transform.position;
-        newPosition.x = player.position.x;
-        newPosition.z = player.position.z;
-        transform.position = newPosition;
-        playerNameText.transform.position = newPosition;
+        //Hp바 위치
+        Vector3 newHPPosition = transform.position;
+        newHPPosition.x = player.position.x;
+        newHPPosition.z = player.position.z;
+        transform.position = newHPPosition;
+
+        //name 위치
+        Vector3 newNamePosition = playerNameText.transform.position;
+        newNamePosition.x = player.position.x;
+        newNamePosition.z = player.position.z;
+        playerNameText.transform.position = newNamePosition;
 
         HandleHp();
     }

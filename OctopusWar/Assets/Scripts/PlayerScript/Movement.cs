@@ -13,10 +13,11 @@ public class Movement : MonoBehaviour
 
     [Header("bullet")]
         [SerializeField] float bulletSpeed = 2f;
-        [SerializeField] GameObject bullet;
+        //[SerializeField] GameObject bullet;
         [SerializeField] Transform startPosition;
         [SerializeField] float bulletTime;
     bool isButton;
+    string bulletName;
 
     [Header("bullet")]
         [SerializeField] float curTime;
@@ -36,8 +37,17 @@ public class Movement : MonoBehaviour
         }
         private void Start()
         {
-            curTime = 0;
+        Debug.Log(transform.parent.gameObject.name);
+        curTime = 0;
+        if (transform.parent.gameObject.name == "Attacker(Clone)")
+        {
+            bulletName = "AttackerBullet";
         }
+        else
+        {
+            bulletName = "DefenderBullet";
+        }
+    }
 
         void FixedUpdate()
         {
@@ -76,8 +86,7 @@ public class Movement : MonoBehaviour
 
         private IEnumerator FireBulletCoroutine() //총알을 발사하는 함수
         {
-            var a = PhotonNetwork.Instantiate("Bullet", startPosition.position, startPosition.rotation);
-
+            var a = PhotonNetwork.Instantiate(bulletName, startPosition.position, startPosition.rotation);
             rb.constraints = RigidbodyConstraints.FreezePosition;                      
             a.GetComponent<Rigidbody>().AddForce(startPosition.transform.forward * bulletSpeed);
             rb.constraints = ~RigidbodyConstraints.FreezePosition;

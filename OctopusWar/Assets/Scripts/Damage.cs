@@ -6,11 +6,22 @@ using Photon.Pun;
 public class Damage : MonoBehaviourPun
 {
     HealthBarScript healthBarScript;
-    private float curHp; 
+    int damageAmount;
 
     private void Awake()
     {
         healthBarScript = transform.Find("HCanvas").Find("HP").GetComponent<HealthBarScript>();
+    }
+    private void Start()
+    {
+        if(gameObject.name == "Attacker(Clone)")
+        {
+            damageAmount = 15;
+        }
+        else
+        {
+            damageAmount = 10;
+        }
     }
 
     [PunRPC]
@@ -18,7 +29,7 @@ public class Damage : MonoBehaviourPun
     {
         if (healthBarScript.curHp >= 10)
         {
-            healthBarScript.curHp -= 10;
+            healthBarScript.curHp -= damageAmount;
 
 
         }
