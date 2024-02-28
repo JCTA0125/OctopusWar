@@ -19,6 +19,8 @@ public class Synchronization : MonoBehaviour, IPunObservable
     private float distance;
     private float angle;
 
+    private GameObject battleArenaGameobject;
+
     private void Awake()
     {
         Transform parent = transform.Find("Player");
@@ -27,6 +29,8 @@ public class Synchronization : MonoBehaviour, IPunObservable
 
         networkedPosition = new Vector3();
         networkedRotation = new Quaternion();
+
+        battleArenaGameobject = GameObject.Find("ArenaStructure");
     }
 
 
@@ -45,7 +49,7 @@ public class Synchronization : MonoBehaviour, IPunObservable
         if (stream.IsWriting) 
         {
 
-            stream.SendNext(rb.position);
+            stream.SendNext(rb.position - battleArenaGameobject.transform.position);
             stream.SendNext(rb.rotation);
 
             if (synchronizeVelocity)
@@ -61,7 +65,7 @@ public class Synchronization : MonoBehaviour, IPunObservable
         }
         else 
         {
-            networkedPosition = (Vector3)stream.ReceiveNext(); 
+            networkedPosition = (Vector3)stream.ReceiveNext() + battleArenaGameobject.transform.position; 
             networkedRotation = (Quaternion)stream.ReceiveNext();
 
             if (isTeleportEnabled)

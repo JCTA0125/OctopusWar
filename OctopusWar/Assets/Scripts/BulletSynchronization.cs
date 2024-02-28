@@ -19,6 +19,8 @@ public class BulletSynchronization : MonoBehaviour, IPunObservable
     private float distance;
     private float angle;
 
+    private GameObject battleArenaGameobject;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
@@ -26,6 +28,8 @@ public class BulletSynchronization : MonoBehaviour, IPunObservable
 
         networkedPosition = new Vector3();
         networkedRotation = new Quaternion();
+
+        battleArenaGameobject = GameObject.Find("ArenaStructure");
     }
 
 
@@ -44,7 +48,7 @@ public class BulletSynchronization : MonoBehaviour, IPunObservable
         if (stream.IsWriting)
         {
 
-            stream.SendNext(rb.position);
+            stream.SendNext(rb.position - battleArenaGameobject.transform.position);
             stream.SendNext(rb.rotation);
             stream.SendNext(gameObject.activeSelf);
 
@@ -61,7 +65,7 @@ public class BulletSynchronization : MonoBehaviour, IPunObservable
         }
         else
         {
-            networkedPosition = (Vector3)stream.ReceiveNext();
+            networkedPosition = (Vector3)stream.ReceiveNext() + battleArenaGameobject.transform.position;
             networkedRotation = (Quaternion)stream.ReceiveNext();
 
             //false 일 때만 SetActive 변경함.

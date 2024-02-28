@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Scene_PlayerSelection.unity
+- path: Assets/Scenes/Arena/BattleArena_H.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
