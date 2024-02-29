@@ -87,6 +87,11 @@ public class LobbyManager : MonoBehaviourPunCallbacks
         //SceneLoader.Instance.LoadScene("Scene_PlayerSelection");
         SceneLoader.Instance.LoadScene("BattleArena_H");
     }
+
+    public void OnJoinRoomButtonClicked()
+    {
+        SceneLoader.Instance.LoadScene("Scene_SearchRoom");
+    }
     #endregion
 
     #region PHOTON Callback Methods
