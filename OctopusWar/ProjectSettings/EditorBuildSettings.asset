@@ -23,7 +23,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Arena/BattleArena_H.unity
     guid: c17b91bcb4e4d844bb18bd1a0c4b8c66
+  - enabled: 1
+    path: Assets/Scenes/Arena/BattleArena_ForGeoSpatial.unity
+    guid: f72344eb631072b429599d1f233ba3a3
+  - enabled: 1
+    path: Assets/Scenes/Arena/BattleArena_ForGeoJoiner.unity
+    guid: 5fe1359d41639454583fd1ef6d563f09
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: cdebb55f0b0ccb644b08c929d4583bb9, type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 40295e2ad5721c4489e0b5d8f773aea2, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 9cdbf780768f6e14ab5c7ec6df759760, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 6227b0e4b19ffd9428b49f0adc542ca6, type: 2}
+  m_UseUCBPForAssetBundles: 0

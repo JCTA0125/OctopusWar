@@ -18,5 +18,6 @@
     "url": "git@github.cds.internal.unity3d.com:unity/burst",
     "type": "git",
     "revision": "1aa8f2db606554f28aa01007e92600cd24643852"
-  }
+  },
+  "_fingerprint": "d6b95a30a032b6a5a247f455d2d5b74e45061777"
 }

@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Scene_SearchRoom.unity
+- path: Assets/Scenes/Arena/BattleArena_ForGeoJoiner.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

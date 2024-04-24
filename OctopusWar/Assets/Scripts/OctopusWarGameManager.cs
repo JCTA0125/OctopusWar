@@ -12,6 +12,8 @@ public class OctopusWarGameManager : MonoBehaviourPunCallbacks
     public TextMeshProUGUI uI_InformText;
     public GameObject searchForGamesButtonGameObject;
 
+    public string randomRoomName;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +26,7 @@ public class OctopusWarGameManager : MonoBehaviourPunCallbacks
     {
 
     }
+
 
     #region UI Callback Methods
     public void JoinRandomRoom()
@@ -50,6 +53,18 @@ public class OctopusWarGameManager : MonoBehaviourPunCallbacks
 
     #endregion
 
+    #region GEO PHOTON Callback Methods
+
+    public void CreateAGeoRoom()
+    {
+        uI_InformText.text = " ";
+        CreateAndJoinRoom();
+        uI_InformText.text = randomRoomName;
+        searchForGamesButtonGameObject.SetActive(false);
+
+    }
+
+    #endregion
 
     #region PHOTON Callback Methods
     public override void OnJoinRandomFailed(short returnCode, string message)

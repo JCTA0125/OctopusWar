@@ -88,9 +88,16 @@ public class LobbyManager : MonoBehaviourPunCallbacks
         SceneLoader.Instance.LoadScene("BattleArena_H");
     }
 
+    public void OnCreateRoomButtonClicked()
+    {
+        //SceneManager.LoadScene("Scene_Loading");
+        //SceneLoader.Instance.LoadScene("Scene_PlayerSelection");
+        SceneLoader.Instance.LoadScene("BattleArena_ForGeoSpatial");
+    }
+
     public void OnJoinRoomButtonClicked()
     {
-        SceneLoader.Instance.LoadScene("Scene_SearchRoom");
+        SceneLoader.Instance.LoadScene("BattleArena_ForGeoJoiner");
     }
     #endregion
 

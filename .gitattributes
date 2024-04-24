@@ -54,3 +54,11 @@
 *.rns filter=lfs diff=lfs merge=lfs -text
 *.reason filter=lfs diff=lfs merge=lfs -text
 *.lxo filter=lfs diff=lfs merge=lfs -text
+C:/Users/kde78/Documents/GitHub/OctopusWar/OctopusWar/Assets/TextMesh[[:space:]]Pro/Examples[[:space:]]&[[:space:]]Extras/Resources/Fonts[[:space:]]&[[:space:]]Materials/Electronic[[:space:]]Highway[[:space:]]Sign[[:space:]]SDF.asset filter=lfs diff=lfs merge=lfs -text
+Library/ArtifactDB/* filter=lfs diff=lfs merge=lfs -text
+Library/BurstCache/JIT/BurstCacheManifest.cm filter=lfs diff=lfs merge=lfs -text
+Library/EditorUserBuildSettings.asset filter=lfs diff=lfs merge=lfs -text
+Library/SourceAssetDB/* filter=lfs diff=lfs merge=lfs -text
+Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json filter=lfs diff=lfs merge=lfs -text
+ProjectSettings/ProjectSettings.asset filter=lfs diff=lfs merge=lfs -text
+Library/PackageCache/com.unity.burst@1.8.9/.Runtime/libburst-llvm-15.dylib filter=lfs diff=lfs merge=lfs -text

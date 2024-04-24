@@ -47,3 +47,7 @@ Scene connect, Multi user spawn
 -----------------------
 #### Commit12
 1. room search UI
+
+#### Commit12
+1. room search with name
+2. geo joiner scene

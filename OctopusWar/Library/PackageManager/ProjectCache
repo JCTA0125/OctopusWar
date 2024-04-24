@@ -1,33 +1,146 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: D:/UnityProject/OctopusWar/OctopusWar/Packages/manifest.json
+    m_FilePath: D:/UnityProject/OctopusWar2/OctopusWar/OctopusWar/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638447961805654281
-    m_Hash: 2130438256
+      ticks: 638487700462917644
+    m_Hash: 134763417
   m_LockFileStatus:
-    m_FilePath: D:/UnityProject/OctopusWar/OctopusWar/Packages/packages-lock.json
+    m_FilePath: D:/UnityProject/OctopusWar2/OctopusWar/OctopusWar/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638447961805674375
-    m_Hash: 1661661004
+      ticks: 638487700462938003
+    m_Hash: 3142552072
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: D:/UnityProject/OctopusWar/OctopusWar/Packages
-m_EditorVersion: 2022.3.12f1 (4fe6e059c7ef)
+m_ProjectPath: D:/UnityProject/OctopusWar2/OctopusWar/OctopusWar/Packages
+m_EditorVersion: 2023.3.0a11 (e6d77d26a287)
 m_ResolvedPackages:
-- packageId: com.unity.2d.animation@9.0.4
+- packageId: com.google.ar.core.arfoundation.extensions@https://github.com/google-ar/arcore-unity-extensions.git
   testable: 0
   isDirectDependency: 1
-  version: 9.0.4
+  version: 1.42.0
+  source: 5
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.google.ar.core.arfoundation.extensions@a7adcde95f
+  assetPath: Packages/com.google.ar.core.arfoundation.extensions
+  name: com.google.ar.core.arfoundation.extensions
+  displayName: ARCore Extensions
+  author:
+    name: Google LLC
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Google ARCore Extensions for AR Foundation. This package provides
+    access to ARCore features not covered by AR Foundation's cross platform API.
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.unity.xr.arfoundation
+    version: 4.1.5
+  - name: com.unity.xr.arcore
+    version: 4.1.5
+  - name: com.unity.xr.arkit
+    version: 4.1.5
+  resolvedDependencies:
+  - name: com.unity.xr.arfoundation
+    version: 6.0.0-pre.3
+  - name: com.unity.editorcoroutines
+    version: 1.0.0
+  - name: com.unity.inputsystem
+    version: 1.7.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
+  - name: com.unity.xr.core-utils
+    version: 2.2.3
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.xr.management
+    version: 4.4.0
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.10
+  - name: com.unity.ugui
+    version: 2.0.0
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.modules.particlesystem
+    version: 1.0.0
+  - name: com.unity.modules.unityanalytics
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.xr.arcore
+    version: 6.0.0-pre.3
+  - name: com.unity.modules.androidjni
+    version: 1.0.0
+  - name: com.unity.xr.arkit
+    version: 6.0.0-pre.3
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: a7adcde95fc45832551ea939db3d6876a7365b7b
+    revision: HEAD
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: a7adcde95fc45832551ea939db3d6876a7365b7b
+- packageId: com.unity.2d.animation@10.0.3
+  testable: 0
+  isDirectDependency: 1
+  version: 10.0.3
   source: 1
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.2d.animation@9.0.4
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.2d.animation@10.0.3
   assetPath: Packages/com.unity.2d.animation
   name: com.unity.2d.animation
   displayName: 2D Animation
@@ -39,7 +152,6 @@ m_ResolvedPackages:
   type: assets
   description: 2D Animation provides all the necessary tooling and runtime components
     for skeletal animation using Sprites.
-  status: 0
   errors: []
   versions:
     all:
@@ -164,25 +276,27 @@ m_ResolvedPackages:
     - 10.0.2
     - 10.0.3
     - 10.1.0
+    - 10.1.1
     compatible:
-    - 9.0.4
-    - 9.1.0
-    recommended: 9.0.4
+    - 10.0.3
+    - 10.1.0
+    - 10.1.1
+    recommended: 10.0.3
     deprecated: []
   dependencies:
   - name: com.unity.2d.common
-    version: 8.0.1
+    version: 9.0.2
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.collections
-    version: 1.1.0
+    version: 1.2.4
   - name: com.unity.modules.animation
     version: 1.0.0
   - name: com.unity.modules.uielements
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.2d.common
-    version: 8.0.1
+    version: 9.0.2
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.mathematics
@@ -195,6 +309,8 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
   - name: com.unity.modules.animation
     version: 1.0.0
   - name: com.unity.burst
@@ -202,9 +318,9 @@ m_ResolvedPackages:
   - name: com.unity.collections
     version: 1.2.4
   - name: com.unity.test-framework
-    version: 1.1.33
+    version: 1.3.9
   - name: com.unity.ext.nunit
-    version: 1.0.6
+    version: 2.0.5
   keywords:
   - 2d
   - animation
@@ -217,29 +333,44 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638320873940000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.animation@9.0/manual/index.html
+  datePublishedTicks: 638294344950000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.animation@10.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: be60dd1716d39b00d03d87668a09a4fc1d4102b6
+    revision: b0f3a8f8d95618bb6a299742c1bbd4e96699180b
     path: 
   unityLifecycle:
-    version: 9.0.4
+    version: 10.0.3
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n- Fixed an issue where the FK doesn''t blend
+    correctly with the IK if solver solves from the bind pose. (case DANB-484)\n-
+    Fixed an issue where GPU-deformed Sprites will not animated after scene reload.
+    (case DANB-461) \n- Added correct help documentation link to Sprite Library Asset.
+    (case DANB-487)\n\n##Changed\n- Updated documentation on enabling GPU skinning.\n-
+    Update the Sprite Library component inspector to inform users about the entry
+    overrides documentation page."}'
+  assetStore:
+    productId: 
+  fingerprint: 1d1e57a42ec843eb257d2ac03fa5525049851b2d
 - packageId: com.unity.2d.sprite@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.2d.sprite@1.0.0
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.2d.sprite@1.0.0
   assetPath: Packages/com.unity.2d.sprite
   name: com.unity.2d.sprite
   displayName: 2D Sprite
@@ -251,7 +382,6 @@ m_ResolvedPackages:
   type: 
   description: Use Unity Sprite Editor Window to create and edit Sprite asset properties
     like pivot, borders and Physics shape
-  status: 0
   errors: []
   versions:
     all:
@@ -275,6 +405,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -292,12 +424,19 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.2d.spriteshape@9.0.2
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
+- packageId: com.unity.2d.spriteshape@10.0.2
   testable: 0
   isDirectDependency: 1
-  version: 9.0.2
+  version: 10.0.2
   source: 1
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.2d.spriteshape@9.0.2
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.2d.spriteshape@10.0.2
   assetPath: Packages/com.unity.2d.spriteshape
   name: com.unity.2d.spriteshape
   displayName: 2D SpriteShape
@@ -306,11 +445,10 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 2D
-  type: asset
+  type: assets
   description: SpriteShape Runtime & Editor Package contains the tooling and the
     runtime component that allows you to create very organic looking spline based
     2D worlds. It comes with intuitive configurator and a highly performant renderer.
-  status: 0
   errors: []
   versions:
     all:
@@ -396,22 +534,26 @@ m_ResolvedPackages:
     - 10.0.0
     - 10.0.1
     - 10.0.2
+    - 10.0.3
+    - 10.0.4
     compatible:
-    - 9.0.2
-    recommended: 9.0.2
+    - 10.0.2
+    - 10.0.3
+    - 10.0.4
+    recommended: 10.0.4
     deprecated: []
   dependencies:
   - name: com.unity.mathematics
     version: 1.1.0
   - name: com.unity.2d.common
-    version: 8.0.1
+    version: 9.0.2
   - name: com.unity.modules.physics2d
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.2d.common
-    version: 8.0.1
+    version: 9.0.2
   - name: com.unity.2d.sprite
     version: 1.0.0
   - name: com.unity.modules.uielements
@@ -421,6 +563,8 @@ m_ResolvedPackages:
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.hierarchycore
     version: 1.0.0
   - name: com.unity.modules.animation
     version: 1.0.0
@@ -444,29 +588,39 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638150103540000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.spriteshape@9.0/manual/index.html
+  datePublishedTicks: 638294344970000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.spriteshape@10.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: ff926a6d093212af31bc3c835f61abfbb1b3f163
+    revision: b0f3a8f8d95618bb6a299742c1bbd4e96699180b
     path: 
   unityLifecycle:
-    version: 9.0.2
+    version: 10.0.2
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n- UUM-41920 Fill tessellation doesn''t work
+    and Warnings logged for Closed 2D Shapes when C# Job is used"}'
+  assetStore:
+    productId: 
+  fingerprint: dddf7d0951e187342efd0a607f43b100643d4d1f
 - packageId: com.unity.collab-proxy@2.2.0
   testable: 0
   isDirectDependency: 1
   version: 2.2.0
   source: 1
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.collab-proxy@2.2.0
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.collab-proxy@2.2.0
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -479,7 +633,6 @@ m_ResolvedPackages:
   description: The package gives you the ability to use Unity Version Control in
     the Unity editor. To use Unity Version Control, a subscription is required. Learn
     more about how you can get started for free by visiting https://unity.com/solutions/version-control
-  status: 0
   errors: []
   versions:
     all:
@@ -553,8 +706,10 @@ m_ResolvedPackages:
     - 2.1.0-preview.6
     - 2.1.0
     - 2.2.0
+    - 2.3.1
     compatible:
     - 2.2.0
+    - 2.3.1
     recommended: 2.2.0
     deprecated: []
   dependencies: []
@@ -583,6 +738,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638326189440000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.2/manual/index.html
@@ -600,12 +757,31 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.feature.development@1.0.1
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"Unity Version Control is now available as part of the
+    Version Control Package! You can enable Unity Version Control via Window > Unity
+    Version Control to get started!\nIf you have previously used the Unity Asset
+    Store Plastic SCM plug-in, you can now simply use this package. Make sure you
+    delete the plug-in from your project.\nRemoving a previously added Plastic SCM
+    Asset Store Plug-In:\n\n- Select the PlasticSCM folder in the Assets\\Plugins
+    folder on the Project tab, then click Edit > Delete\n- Close the Unity Editor
+    and open your project again. You will find the Plastic SCM menu item in the Window
+    menu.\n\n### Added\n\n- Added button for organization owner/admins to upgrade
+    to DevOps subscription.\n- Included new decorators for retained & locked files.\n\n###
+    Changed\n\n- Updated description in the package.json, including an updated link
+    to get started.\n\n### Fixed\n\n- Fixed failed operations when the workspace
+    is already locked."}'
+  assetStore:
+    productId: 
+  fingerprint: b26119cdd155c5184e81256d86ad41544381e984
+- packageId: com.unity.feature.development@1.0.2
   testable: 0
   isDirectDependency: 1
-  version: 1.0.1
+  version: 1.0.2
   source: 2
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.feature.development@1.0.1
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.feature.development@1.0.2
   assetPath: Packages/com.unity.feature.development
   name: com.unity.feature.development
   displayName: Engineering
@@ -619,21 +795,18 @@ m_ResolvedPackages:
     feature set. Enable support for multiple integrated development environments
     (IDE) for editing your Unity code. Get access to development tools to help you
     test and analyze your project\u2019s performance."
-  status: 0
   errors: []
   versions:
     all:
-    - 1.0.1
+    - 1.0.2
     compatible:
-    - 1.0.1
-    recommended: 1.0.1
+    - 1.0.2
+    recommended: 1.0.2
     deprecated: []
   dependencies:
   - name: com.unity.ide.visualstudio
     version: default
   - name: com.unity.ide.rider
-    version: default
-  - name: com.unity.ide.vscode
     version: default
   - name: com.unity.editorcoroutines
     version: default
@@ -645,19 +818,17 @@ m_ResolvedPackages:
     version: default
   resolvedDependencies:
   - name: com.unity.ide.visualstudio
-    version: 2.0.21
+    version: 2.0.22
   - name: com.unity.test-framework
-    version: 1.1.33
+    version: 1.3.9
   - name: com.unity.ext.nunit
-    version: 1.0.6
+    version: 2.0.5
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.ide.rider
-    version: 3.0.25
-  - name: com.unity.ide.vscode
-    version: 1.2.5
+    version: 3.0.26
   - name: com.unity.editorcoroutines
     version: 1.0.0
   - name: com.unity.performance.profile-analyzer
@@ -676,6 +847,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -686,19 +859,26 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 1.0.1
+    version: 1.0.2
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"quickstart":"https://docs.unity3d.com/2021.2/Documentation/Manual/DeveloperToolsFeature.html"}'
+  assetStore:
+    productId: 
+  fingerprint: 
 - packageId: com.unity.mobile.android-logcat@1.3.2
   testable: 0
   isDirectDependency: 1
   version: 1.3.2
   source: 1
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.mobile.android-logcat@1.3.2
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.mobile.android-logcat@1.3.2
   assetPath: Packages/com.unity.mobile.android-logcat
   name: com.unity.mobile.android-logcat
   displayName: Android Logcat
@@ -715,7 +895,6 @@ m_ResolvedPackages:
     'Window > Analysis > Android Logcat', or simply by pressing 'Alt+6' on Windows
     or 'Option+6' on macOS. \n\nMake sure to have Android module loaded and switch
     to Android build target in 'Build Settings' window if the menu doesn't exist."
-  status: 0
   errors: []
   versions:
     all:
@@ -733,9 +912,11 @@ m_ResolvedPackages:
     - 1.2.3
     - 1.3.2
     - 1.4.0
+    - 1.4.1
     compatible:
     - 1.3.2
     - 1.4.0
+    - 1.4.1
     recommended: 1.3.2
     deprecated: []
   dependencies: []
@@ -753,6 +934,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637859722170000000
   documentationUrl: 
@@ -770,12 +953,19 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.test-framework@1.1.33
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 1633feff5e15d2404929e545f7c68638581aac5a
+- packageId: com.unity.test-framework@1.3.9
   testable: 0
   isDirectDependency: 1
-  version: 1.1.33
+  version: 1.3.9
   source: 1
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.test-framework@1.1.33
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.test-framework@1.3.9
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -784,9 +974,8 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Unity Test Framework
-  type: asset
+  type: assets
   description: Test framework for running Edit mode and Play mode tests in Unity.
-  status: 0
   errors: []
   versions:
     all:
@@ -837,41 +1026,34 @@ m_ResolvedPackages:
     - 1.4.1
     - 1.4.2
     - 1.4.3
+    - 1.4.4
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
     - 2.0.1-pre.18
     compatible:
-    - 1.1.33
-    - 1.3.0
-    - 1.3.1
-    - 1.3.2
-    - 1.3.3
-    - 1.3.4
-    - 1.3.5
-    - 1.3.7
-    - 1.3.8
     - 1.3.9
     - 1.4.0
     - 1.4.1
     - 1.4.2
     - 1.4.3
+    - 1.4.4
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
     - 2.0.1-pre.18
-    recommended: 1.1.33
+    recommended: 1.3.9
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
-    version: 1.0.6
+    version: 2.0.3
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.ext.nunit
-    version: 1.0.6
+    version: 2.0.5
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
@@ -888,220 +1070,44 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637938212700000000
-  documentationUrl: 
+  datePublishedTicks: 638283169810000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.test-framework@1.3/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/com.unity.test-framework.git
-    revision: 34a4d423d64926635eb36d3bb86276179cc186e1
+    revision: 5c8a1448cee4d7607be0d60dceb66703b0cfe016
     path: 
   unityLifecycle:
-    version: 1.1.33
+    version: 1.3.9
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.textmeshpro@3.0.6
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"- By using the editor command line new argument `-randomOrderSeed
+    x` you can run the tests in a randomized order, where x is an integer different
+    from 0. If a new test is added in the project the random order passing the same
+    seed will be kept, and the new test will be placed in the random list accordigly.\n-
+    Fix for WebGL platform target to close the browser tab when the run is completed.
+    \n- Added TestFileReferences.json to be generated on build step of the player,
+    so can be consumed later by Test runners to enrich data for run part."}'
+  assetStore:
+    productId: 
+  fingerprint: 1f7ffc2347eb2aa93ce9423198c19665e09b3424
+- packageId: com.unity.timeline@1.8.6
   testable: 0
   isDirectDependency: 1
-  version: 3.0.6
+  version: 1.8.6
   source: 1
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.textmeshpro@3.0.6
-  assetPath: Packages/com.unity.textmeshpro
-  name: com.unity.textmeshpro
-  displayName: TextMeshPro
-  author:
-    name: 
-    email: 
-    url: 
-  category: Text Rendering
-  type: asset
-  description: 'TextMeshPro is the ultimate text solution for Unity. It''s the perfect
-    replacement for Unity''s UI Text and the legacy Text Mesh.
-
-
-    Powerful and
-    easy to use, TextMeshPro (also known as TMP) uses Advanced Text Rendering techniques
-    along with a set of custom shaders; delivering substantial visual quality improvements
-    while giving users incredible flexibility when it comes to text styling and texturing.
-
-
-    TextMeshPro
-    provides Improved Control over text formatting and layout with features like
-    character, word, line and paragraph spacing, kerning, justified text, Links,
-    over 30 Rich Text Tags available, support for Multi Font & Sprites, Custom Styles
-    and more.
-
-
-    Great performance. Since the geometry created by TextMeshPro
-    uses two triangles per character just like Unity''s text components, this improved
-    visual quality and flexibility comes at no additional performance cost.'
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 0.1.2
-    - 1.0.21
-    - 1.0.23
-    - 1.0.25
-    - 1.0.26
-    - 1.1.0
-    - 1.2.0
-    - 1.2.1
-    - 1.2.2
-    - 1.2.3
-    - 1.2.4
-    - 1.3.0-preview
-    - 1.3.0
-    - 1.4.0-preview.1b
-    - 1.4.0-preview.2a
-    - 1.4.0-preview.3a
-    - 1.4.0
-    - 1.4.1-preview.1
-    - 1.4.1
-    - 1.5.0-preview.1
-    - 1.5.0-preview.2
-    - 1.5.0-preview.3
-    - 1.5.0-preview.4
-    - 1.5.0-preview.5
-    - 1.5.0-preview.6
-    - 1.5.0-preview.7
-    - 1.5.0-preview.8
-    - 1.5.0-preview.10
-    - 1.5.0-preview.11
-    - 1.5.0-preview.12
-    - 1.5.0-preview.13
-    - 1.5.0-preview.14
-    - 1.5.0
-    - 1.5.1
-    - 1.5.3
-    - 1.5.4
-    - 1.5.5
-    - 1.5.6
-    - 1.6.0-preview.1
-    - 2.0.0
-    - 2.0.1-preview.1
-    - 2.0.1
-    - 2.1.0-preview.1
-    - 2.1.0-preview.2
-    - 2.1.0-preview.3
-    - 2.1.0-preview.4
-    - 2.1.0-preview.5
-    - 2.1.0-preview.7
-    - 2.1.0-preview.8
-    - 2.1.0-preview.10
-    - 2.1.0-preview.11
-    - 2.1.0-preview.12
-    - 2.1.0-preview.13
-    - 2.1.0-preview.14
-    - 2.1.0
-    - 2.1.1
-    - 2.1.3
-    - 2.1.4
-    - 2.1.5
-    - 2.1.6
-    - 2.2.0-preview.1
-    - 2.2.0-preview.2
-    - 2.2.0-preview.3
-    - 3.0.0-preview.1
-    - 3.0.0-preview.3
-    - 3.0.0-preview.4
-    - 3.0.0-preview.5
-    - 3.0.0-preview.7
-    - 3.0.0-preview.8
-    - 3.0.0-preview.10
-    - 3.0.0-preview.11
-    - 3.0.0-preview.12
-    - 3.0.0-preview.13
-    - 3.0.0-preview.14
-    - 3.0.0
-    - 3.0.1
-    - 3.0.3
-    - 3.0.4
-    - 3.0.5
-    - 3.0.6
-    - 3.0.7
-    - 3.0.8
-    - 3.2.0-pre.1
-    - 3.2.0-pre.2
-    - 3.2.0-pre.3
-    - 3.2.0-pre.4
-    - 3.2.0-pre.5
-    - 3.2.0-pre.6
-    - 3.2.0-pre.7
-    - 3.2.0-pre.8
-    - 3.2.0-pre.9
-    - 4.0.0-pre.1
-    - 4.0.0-pre.2
-    compatible:
-    - 3.0.6
-    - 3.0.7
-    - 3.0.8
-    - 3.2.0-pre.1
-    - 3.2.0-pre.2
-    - 3.2.0-pre.3
-    - 3.2.0-pre.4
-    - 3.2.0-pre.5
-    - 3.2.0-pre.6
-    - 3.2.0-pre.7
-    - 3.2.0-pre.8
-    - 3.2.0-pre.9
-    - 4.0.0-pre.1
-    - 4.0.0-pre.2
-    recommended: 3.0.8
-    deprecated: []
-  dependencies:
-  - name: com.unity.ugui
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.ugui
-    version: 1.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  keywords:
-  - TextMeshPro
-  - TextMesh Pro
-  - TMP
-  - Text
-  - SDF
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637547111200000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.textmeshpro.git
-    revision: 01e57e3b7de18af9dfe9baaa0a0ff5cc4765c899
-    path: 
-  unityLifecycle:
-    version: 3.0.6
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-- packageId: com.unity.timeline@1.7.6
-  testable: 0
-  isDirectDependency: 1
-  version: 1.7.6
-  source: 1
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.timeline@1.7.6
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.timeline@1.8.6
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1113,7 +1119,6 @@ m_ResolvedPackages:
   type: assets
   description: Use Unity Timeline to create cinematic content, game-play sequences,
     audio sequences, and complex particle effects.
-  status: 0
   errors: []
   versions:
     all:
@@ -1203,15 +1208,8 @@ m_ResolvedPackages:
     - 1.8.5
     - 1.8.6
     compatible:
-    - 1.7.6
-    - 1.8.0
-    - 1.8.1
-    - 1.8.2
-    - 1.8.3
-    - 1.8.4
-    - 1.8.5
     - 1.8.6
-    recommended: 1.7.6
+    recommended: 1.8.6
     deprecated: []
   dependencies:
   - name: com.unity.modules.director
@@ -1246,29 +1244,45 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638326112840000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.7/manual/index.html
+  datePublishedTicks: 638326112870000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.timeline@1.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-    revision: 02f49ada64a9f88044207cf42ba407dc634ef8e6
+    revision: 9b8cc7590b7d733181284f1a846a02406b5524d8
     path: 
   unityLifecycle:
-    version: 1.7.6
+    version: 1.8.6
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.ugui@1.0.0
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Changed\n\n- In the `Create Asset` menu, the `Signal`
+    and `Timeline` items have been moved to the `Timeline` submenu.\n\n### Fixed\n\n-
+    Fixed issue where changing the name of a group track was not undoable ([TB-218](https://issuetracker.unity3d.com/issues/timeline-track-group-renaming-doesnt-go-into-the-undo-history)).\n-
+    Fixed issue where a warning would be logged in the console for `TrackAsset` ([TB-229](https://issuetracker.unity3d.com/product/unity/issues/guid/TB-229)).\n-
+    Fixed performance regression when rebuilding the playable graph.\n- Fixed a `MissingReferenceException`
+    when editing a Timeline that is an instance of a prefab and a bound `Animator`
+    is destroyed ([TB-222](https://issuetracker.unity3d.com/issues/timeline-missingreferenceexceptions-when-undoing-add-animator-from-timeline))\n-
+    Removed warnings due to obsolete analytics API."}'
+  assetStore:
+    productId: 
+  fingerprint: 9ac0df085fa85d0d1f0b83dd933674497fd2774e
+- packageId: com.unity.ugui@2.0.0
   testable: 0
   isDirectDependency: 1
-  version: 1.0.0
+  version: 2.0.0
   source: 2
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.ugui@1.0.0
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.ugui@2.0.0
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -1282,16 +1296,18 @@ m_ResolvedPackages:
     and applications. It is a GameObject-based UI system that uses Components and
     the Game View to arrange, position, and style user interfaces. \u200B You cannot
     use Unity UI to create or change user interfaces in the Unity Editor."
-  status: 0
   errors: []
   versions:
     all:
-    - 1.0.0
+    - 2.0.0
     - 3.0.0-exp.1
     - 3.0.0-exp.3
+    - 3.0.0-exp.4
     compatible:
-    - 1.0.0
-    recommended: 1.0.0
+    - 2.0.0
+    - 3.0.0-exp.1
+    - 3.0.0-exp.3
+    recommended: 2.0.0
     deprecated: []
   dependencies:
   - name: com.unity.modules.ui
@@ -1308,6 +1324,11 @@ m_ResolvedPackages:
   - ugui
   - Unity UI
   - Canvas
+  - TextMeshPro
+  - TextMesh Pro
+  - Text
+  - TMP
+  - SDF
   registry:
     id: main
     name: 
@@ -1317,6 +1338,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1327,19 +1350,26 @@ m_ResolvedPackages:
     revision: 
     path: 
   unityLifecycle:
-    version: 1.0.0
+    version: 2.0.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
 - packageId: com.unity.visualscripting@1.9.1
   testable: 0
   isDirectDependency: 1
   version: 1.9.1
   source: 1
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.visualscripting@1.9.1
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.visualscripting@1.9.1
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1361,7 +1391,6 @@ m_ResolvedPackages:
 
     Visual scripting is compatible with third-party
     APIs, including most packages, assets and custom libraries.'
-  status: 0
   errors: []
   versions:
     all:
@@ -1384,9 +1413,13 @@ m_ResolvedPackages:
     - 1.8.0
     - 1.9.0
     - 1.9.1
+    - 1.9.2
+    - 1.9.4
     compatible:
     - 1.9.1
-    recommended: 1.9.1
+    - 1.9.2
+    - 1.9.4
+    recommended: 1.9.4
     deprecated:
     - 1.8.0-pre.1
   dependencies:
@@ -1396,7 +1429,7 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.ugui
-    version: 1.0.0
+    version: 2.0.0
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
@@ -1413,6 +1446,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638284821510000000
   documentationUrl: 
@@ -1430,12 +1465,20 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.xr.arcore@5.1.2
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n- Reverted a breaking change where `LudiqScriptableObject._data`
+    was marked as `private`\n- Reverted a breaking change related to `IGraphEventListener`"}'
+  assetStore:
+    productId: 
+  fingerprint: 80ee0eef820c92e33e98301a68793ba7cf8f7b48
+- packageId: com.unity.xr.arcore@6.0.0-pre.3
   testable: 0
   isDirectDependency: 1
-  version: 5.1.2
+  version: 6.0.0-pre.3
   source: 1
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.xr.arcore@5.1.2
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.xr.arcore@6.0.0-pre.3
   assetPath: Packages/com.unity.xr.arcore
   name: com.unity.xr.arcore
   displayName: Google ARCore XR Plugin
@@ -1462,7 +1505,6 @@ m_ResolvedPackages:
     -Hit Testing
 
     -Occlusion'
-  status: 0
   errors: []
   versions:
     all:
@@ -1571,30 +1613,37 @@ m_ResolvedPackages:
     - 5.1.0
     - 5.1.1
     - 5.1.2
+    - 5.1.3
     - 6.0.0-pre.3
     - 6.0.0-pre.4
     - 6.0.0-pre.5
     - 6.0.0-pre.6
+    - 6.0.0-pre.7
+    - 6.0.0-pre.8
+    - 6.0.1
     compatible:
-    - 5.1.0
-    - 5.1.1
-    - 5.1.2
-    recommended: 5.1.2
+    - 6.0.0-pre.3
+    - 6.0.0-pre.4
+    - 6.0.0-pre.5
+    - 6.0.0-pre.6
+    - 6.0.0-pre.7
+    - 6.0.0-pre.8
+    recommended: 6.0.0-pre.8
     deprecated: []
   dependencies:
   - name: com.unity.xr.arfoundation
-    version: 5.1.2
+    version: 6.0.0-pre.3
   - name: com.unity.xr.core-utils
-    version: 2.1.0
+    version: 2.2.2
   - name: com.unity.xr.management
-    version: 4.0.1
+    version: 4.4.0
   - name: com.unity.modules.androidjni
     version: 1.0.0
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.xr.arfoundation
-    version: 5.1.2
+    version: 6.0.0-pre.3
   - name: com.unity.editorcoroutines
     version: 1.0.0
   - name: com.unity.inputsystem
@@ -1606,6 +1655,8 @@ m_ResolvedPackages:
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.hierarchycore
     version: 1.0.0
   - name: com.unity.xr.core-utils
     version: 2.2.3
@@ -1622,7 +1673,7 @@ m_ResolvedPackages:
   - name: com.unity.xr.legacyinputhelpers
     version: 2.1.10
   - name: com.unity.ugui
-    version: 1.0.0
+    version: 2.0.0
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.modules.particlesystem
@@ -1649,29 +1700,50 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638421163600000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.arcore@5.1/manual/index.html
+  datePublishedTicks: 638303670610000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.arcore@6.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/arfoundation.git
-    revision: 2a2d7e68e9dbb44480d9eb6ad93001c401bbca01
+    revision: a042bebcd46c7ff6c9b11fbb803c8def4eea81e3
     path: 
   unityLifecycle:
-    version: 5.1.0
+    version: 6.0.0-pre.3
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.xr.arfoundation@5.1.2
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Added\n\n- Added support for Image Stabilization,
+    which helps stabilize shaky video from the camera.\n\n### Changed\n\n- Upgraded
+    ARCore version to 1.37 from 1.31.\n\n### Deprecated\n\n- `ARCoreXRPointCloudSubsystem`
+    has been deprecated and renamed to `ARCorePointCloudSubsystem` for consistency
+    with other subsystems. Unity''s API Updater should automatically convert any
+    deprecated APIs references to the new APIs when the project is loaded into the
+    Editor again.\n\n### Removed\n\n- Removed the following deprecated APIs:\n  -
+    `ArCameraConfig.Null` property\n  - `ArCameraConfig.IsNull` property\n  - `ArCameraConfigFilter.Null`
+    property\n  - `ArCameraConfigFilter.IsNull` property\n  - `ArConfig.Null` property\n 
+    - `ArConfig.IsNull` property\n  - `ARCoreBeforeSetConfigurationEventArgs.session`
+    property\n  - `ARCoreBeforeSetConfigurationEventArgs.config` property\n  - `ARCoreBeforeSetConfigurationEventArgs(IntPtr
+    session, IntPtr config)` constructor\n  - `ARCoreSettingsProvider` class\n  -
+    `ArSession.Null` property\n  - `ArSession.IsNull` property"}'
+  assetStore:
+    productId: 
+  fingerprint: b6456bf839e3c01a8fe062377a9d7ff4be760b41
+- packageId: com.unity.xr.arfoundation@6.0.0-pre.3
   testable: 0
   isDirectDependency: 1
-  version: 5.1.2
+  version: 6.0.0-pre.3
   source: 1
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.xr.arfoundation@5.1.2
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.xr.arfoundation@6.0.0-pre.3
   assetPath: Packages/com.unity.xr.arfoundation
   name: com.unity.xr.arfoundation
   displayName: AR Foundation
@@ -1681,13 +1753,9 @@ m_ResolvedPackages:
     url: 
   category: 
   type: assets
-  description: "A collection of Subsystems as well as MonoBehaviours and C# utilities
-    for working with the Subsystems. \n\nIncludes: \n\u25AA Definitions of Subsystems
-    \n\u25AA GameObject menu items for creating an AR setup \n\u25AA MonoBehaviours
-    that control AR session lifecycle and create GameObjects from detected, real-world
-    trackable features \n\u25AA Scale handling \n\u25AA Face tracking\n\nSamples
-    available at https://github.com/Unity-Technologies/arfoundation-samples"
-  status: 0
+  description: AR Foundation enables you to create multi-platform augmented reality
+    (AR) apps with Unity. To learn more about AR Foundation, click the Documentation
+    link above.
   errors: []
   versions:
     all:
@@ -1803,29 +1871,36 @@ m_ResolvedPackages:
     - 5.1.0
     - 5.1.1
     - 5.1.2
+    - 5.1.3
     - 6.0.0-pre.3
     - 6.0.0-pre.4
     - 6.0.0-pre.5
     - 6.0.0-pre.6
+    - 6.0.0-pre.7
+    - 6.0.0-pre.8
+    - 6.0.1
     compatible:
-    - 5.1.0
-    - 5.1.1
-    - 5.1.2
-    recommended: 5.1.2
+    - 6.0.0-pre.3
+    - 6.0.0-pre.4
+    - 6.0.0-pre.5
+    - 6.0.0-pre.6
+    - 6.0.0-pre.7
+    - 6.0.0-pre.8
+    recommended: 6.0.0-pre.8
     deprecated: []
   dependencies:
   - name: com.unity.editorcoroutines
     version: 1.0.0
   - name: com.unity.inputsystem
-    version: 1.3.0
+    version: 1.6.3
   - name: com.unity.xr.core-utils
-    version: 2.2.1
+    version: 2.2.2
   - name: com.unity.xr.management
-    version: 4.0.1
+    version: 4.4.0
   - name: com.unity.ugui
-    version: 1.0.0
+    version: 2.0.0
   - name: com.unity.mathematics
-    version: 1.2.5
+    version: 1.2.6
   - name: com.unity.modules.particlesystem
     version: 1.0.0
   - name: com.unity.modules.ui
@@ -1847,6 +1922,8 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
   - name: com.unity.xr.core-utils
     version: 2.2.3
   - name: com.unity.modules.xr
@@ -1862,7 +1939,7 @@ m_ResolvedPackages:
   - name: com.unity.xr.legacyinputhelpers
     version: 2.1.10
   - name: com.unity.ugui
-    version: 1.0.0
+    version: 2.0.0
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.modules.particlesystem
@@ -1872,17 +1949,17 @@ m_ResolvedPackages:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   keywords:
+  - xreditorsubsystem
   - xr
   - ar
   - augmented
+  - mixed
   - reality
-  - utility
-  - utilities
   - foundation
   - core
   - subsystem
-  - xreditorsubsystem
-  - arsimulation
+  - simulation
+  - visualscripting
   registry:
     id: main
     name: 
@@ -1892,29 +1969,182 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638421163570000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@5.1/manual/index.html
+  datePublishedTicks: 638303670580000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@6.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/arfoundation.git
-    revision: 2a2d7e68e9dbb44480d9eb6ad93001c401bbca01
+    revision: a042bebcd46c7ff6c9b11fbb803c8def4eea81e3
     path: 
   unityLifecycle:
-    version: 5.1.0
+    version: 6.0.0-pre.3
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Added\n\n- Added [XRObjectTrackingSubsystemDescriptor.Register(XRObjectTrackingSubsystemDescriptor.Cinfo)](xref:UnityEngine.XR.ARSubsystems.XRObjectTrackingSubsystemDescriptor.Register(UnityEngine.XR.ARSubsystems.XRObjectTrackingSubsystemDescriptor.Cinfo))
+    to replace the deprecated register methods present in `XRObjectTrackingSubsystem`\n-
+    Added [XRParticipantSubsystemDescriptor.Register(XRParticipantSubsystemDescriptor.Cinfo)](UnityEngine.XR.ARSubsystems.XRParticipantSubsystemDescriptor.Register(UnityEngine.XR.ARSubsystems.XRParticipantSubsystemDescriptor.Cinfo))
+    to replace the deprecated register methods present in `XRParticipantSubsystem`\n-
+    Added support for asynchronous anchor creation. Refer to [What''s New](xref:arfoundation-whats-new#asynchronous-tryaddanchor-api)
+    for more information.\n- Added support for Image Stabilization, which helps stabilize
+    shaky video from the camera.\n- Added support for Occlusion to XR Simulation.\n-
+    Added the following subsystem descriptor registration methods for consistency
+    with other subsystem descriptors:\n  - [XRCameraSubsystemDescriptor.Register](xref:UnityEngine.XR.ARSubsystems.XRCameraSubsystemDescriptor.Register)\n 
+    - [XREnvironmentProbeSubsystemDescriptor.Register](xref:UnityEngine.XR.ARSubsystems.XREnvironmentProbeSubsystemDescriptor.Register)\n 
+    - [XRHumanBodySubsystemDescriptor.Register](xref:UnityEngine.XR.ARSubsystems.XRHumanBodySubsystemDescriptor.Register)\n 
+    - [XROcclusionSubsystemDescriptor.Register](xref:UnityEngine.XR.ARSubsystems.XROcclusionSubsystemDescriptor.Register)\n\n###
+    Changed\n\n- Changed [ScheduleAddImageWithValidationJob](xref:UnityEngine.XR.ARFoundation.MutableRuntimeReferenceImageLibraryExtensions.ScheduleAddImageWithValidationJob)
+    to check if the `ARSession.state` has reached the ready state before scheduling
+    the add image operation.\n- Changed `ARTrackable` to now implement the `ITrackable`
+    interface, enabling generic API designs when dealing with trackables.\n- Changed
+    `XRPlaneSubsystem.Provider.requestedPlaneDetectionMode` to `abstract` from `virtual`.\n-
+    Changed `Promise<T>.OnKeepWaiting()` to `virtual` instead of `abstract`.\n- Changed
+    `SubsystemLifecycleManager.GetActiveSubsystemInstance()` to `protected static`
+    from `protected`, as it does not use any instance members of the `SubsystemLifecycleManager`
+    class. \n- Changed the life cycle behavior of [ARAnchor](xref:UnityEngine.XR.ARFoundation.ARAnchor)
+    in the event that adding the anchor to the `XRAnchorSubsystem` failed. Instead
+    of retrying the add operation every frame, the `ARAnchor` component now disables
+    itself after the first failed attempt.\n\n### Deprecated\n\n- Deprecated the
+    structs `XRObjectTrackingSubsystemDescriptor.Capabilities` and `XRParticipantSubsystemDescriptor.Capabilities`.\n-
+    Deprecated the `XRObjectTrackingSubsystemDescriptor.Register` and `XRParticipantSubsystemDescriptor.Register`
+    methods that use the now-deprecated `Capabilities` struct.\n- Deprecated and
+    replaced the following APIs for consistency with other subsystems:\n  - `XRCameraSubsystemCinfo`
+    to `XRCameraSubsystemDescriptor.Cinfo`\n  - `FaceSubsystemParams` to `XRFaceSubsystemDescriptor.Cinfo`\n 
+    - `XRHumanBodySubsystemCinfo` to `XRHumanBodySubsystemDescriptor.Cinfo`\n  -
+    `XREnvironmentProbeSubsystemCinfo` to `XREnvironmentProbeSubsystemDescriptor.Cinfo`\n 
+    - `XROcclusionSubsystemCinfo` to `XROcclusionSubsystemDescriptor.Cinfo`\n  -
+    `XRAnchorSubsystemDescriptor.Create` to `XRAnchorSubsystemDescriptor.Register`\n 
+    - `XRFaceSubsystemDescriptor.Create` to `XRFaceSubsystemDescriptor.Register`\n 
+    - `XRImageTrackingSubsystemDescriptor.Create` to `XRImageTrackingSubsystemDescriptor.Register`\n 
+    - `XRPlaneSubsystemDescriptor.Create` to `XRPlaneSubsystemDescriptor.Register`\n 
+    - `XRPointCloudSubsystemDescriptor.RegisterDescriptor` to `XRPointCloudSubsystemDescriptor.Register`\n 
+    - `XRRaycastSubsystemDescriptor.RegisterDescriptor` to `XRRaycastSubsystemDescriptor.Register`\n 
+    - `XRSessionSubsystemDescriptor.RegisterDescriptor` to `XRSessionSubsystemDescriptor.Register`\n 
+    - `XRCameraSubsystem.Register` to `XRCameraSubsystemDescriptor.Register`\n  -
+    `XREnvironmentProbeSubsystem.Register` to `XREnvironmentProbeSubsystemDescriptor.Register`\n 
+    - `XRHumanBodySubsystem.Register` to `XRHumanBodySubsystemDescriptor.Register`\n 
+    - `XROcclusionSubsystem.Register` to `XROcclusionSubsystemDescriptor.Register`\n\n###
+    Removed\n\n- Removed the `Description` attribute from values of several enums,
+    as the attribute was unused:\n  - `XRCameraFrameProperties`\n  - `AREnvironmentProbePlacementType`\n 
+    - `CameraFocusMode`\n  - `LightEstimationMode`\n  - `EnvironmentDepthMode`\n 
+    - `HumanSegmentationDepthMode`\n  - `HumanSegmentationStencilMode`\n  - `OcclusionPreferenceMode`\n-
+    Removed the following deprecated APIs:\n  - `ARAnchorManager.AddAnchor` method\n 
+    - `ARAnchorManager.RemoveAnchor` method\n  - `ARCamerManager.focusMode` property\n 
+    - `ARCamerManager.lightEstimationMode` property\n  - `ARCamerManager.TryGetLatestImage`
+    method\n  - `AREnvironmentProbeManager.automaticPlacement` property\n  - `AREnvironmentProbeManager.environmentTextureHDR`
+    property\n  - `AREnvironmentProbeManager.AddEnvironmentProbe` method\n  - `AREnvironmentProbeManager.RemoveEnvironmentProbe`
+    method\n  - `ARFaceManager.maximumFaceCount` property\n  - `ARHumanBodyManager.humanBodyPose2DEstimationEnabled`
+    property\n  - `ARHumanBodyManager.humanBodyPose3DEstimationEnabled` property\n 
+    - `ARHumanBodyManager.humanBodyPose3DScaleEstimationEnabled` property\n  - `AROcclusionManager.humanSegmentationStencilMode`
+    property\n  - `AROcclusionManager.humanSegmentationDepthMode` property\n  - `ARPlaneManager.detectionMode`
+    property\n  - `ARSession.matchFrameRate` property\n  - `ARTrackableManager.sessionOrigin`
+    property\n  - `ARTrackedImageManager.maxNumberOfMovingImages` property\n  - `MutableRuntimeReferenceImageLibrary.ScheduleAddImageJob`
+    method\n  - `XRAnchorSubsystemDescriptor.Cinfo.subsystemImplementationType` property\n 
+    - `XRCameraSubsystem.TryGetLatestImage` method\n  - `XRCameraSubsystemCinfo.implementationType`
+    property\n  - `XREnvironmentProbeSubsystemCinfo.implmentationType` property\n 
+    - `FaceSubsystemParams.subsystemImplementationType` property\n  - `XRHumanBodySubsystemCinfo.implementationType`
+    property\n  - `XRImageTrackingSubsystem.Cinfo.subsystemImplementationType` property\n 
+    - `XROcclusionSubsystemCinfo.implementationType` property\n  - `XROcclusionSubsystemCinfo.supportsHumanSegmentationStencilImage`
+    property\n  - `XROcclusionSubsystemCinfo.supportsHumanSegmentationDepthImage`
+    property\n  - `XROcclusionSubsystemCinfo.queryForSupportsEnvironmentDepthImage`
+    property\n  - `XROcclusionSubsystemCinfo.queryForSupportsEnvironmentDepthConfidenceImage`
+    property\n  - `XROcclusionSubsystemDescriptor.supportsHumanSegmentationStencilImage`
+    property\n  - `XROcclusionSubsystemDescriptor.supportsHumanSegmentationDepthImage`
+    property\n  - `XROcclusionSubsystemDescriptor.supportsEnvironmentDepthImage`
+    property\n  - `XROcclusionSubsystemDescriptor.supportsEnvironmentDepthConfidenceImage`
+    property\n  - `XRPlaneSubsystemDescriptor.Cinfo.subsystemImplementationType`
+    property\n  - `XRPointCloudSubsystemDescriptor.Cinfo.implementationType` property\n 
+    - `XRRaycastSubsystemDescriptor.Cinfo.subsystemImplementationType` property\n 
+    - `XRReferenceObjectLibrary.indexOf` method\n  - `XRSessionSubsystem.subsystemImplementationType`
+    property\n  - `XRSubsystem` class\n- Removed the image file `/Editor/Icons/ARVR@4x.png`
+    as it was unused.\n\n### Fixed\n\n- Fixed [ScheduleAddImageJob](xref:UnityEngine.XR.ARFoundation.MutableRuntimeReferenceImageLibraryExtensions.ScheduleAddImageJob)
+    and [ScheduleAddImageWithValidationJob](xref:UnityEngine.XR.ARFoundation.MutableRuntimeReferenceImageLibraryExtensions.ScheduleAddImageWithValidationJob)
+    documentation to describe the correct exceptions thrown if `library` is null.\n-
+    Fixed an issue in XR Simulation where disabling and re-enabling the AR Plane
+    Manager component would cause duplicate planes to be detected where planes had
+    already been detected previously."}'
+  assetStore:
+    productId: 
+  fingerprint: 4e1bf1aaadab3ee13cd4d99b0d4c0d6930fa3d3e
+- packageId: com.unity.modules.accessibility@1.0.0
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.0
+  source: 2
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.accessibility@1.0.0
+  assetPath: Packages/com.unity.modules.accessibility
+  name: com.unity.modules.accessibility
+  displayName: Accessibility
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: module
+  description: 'The Accessibility module includes utilities to facilitate the development
+    of accessible user experiences in Unity. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.AccessibilityModule.html'
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    recommended: 1.0.0
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
 - packageId: com.unity.modules.ai@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.ai@1.0.0
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.ai@1.0.0
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -1926,7 +2156,6 @@ m_ResolvedPackages:
   type: module
   description: 'The AI module implements the path finding features in Unity. Scripting
     API: https://docs.unity3d.com/ScriptReference/UnityEngine.AIModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -1947,6 +2176,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -1964,12 +2195,19 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
 - packageId: com.unity.modules.androidjni@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.androidjni@1.0.0
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -1980,7 +2218,6 @@ m_ResolvedPackages:
   category: 
   type: module
   description: 'AndroidJNI module allows you to call Java code. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.AndroidJNIModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2001,6 +2238,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2018,12 +2257,19 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
 - packageId: com.unity.modules.animation@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.animation@1.0.0
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.animation@1.0.0
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -2035,7 +2281,6 @@ m_ResolvedPackages:
   type: module
   description: 'The Animation module implements Unity''s animation system. Scripting
     API: https://docs.unity3d.com/ScriptReference/UnityEngine.AnimationModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2056,6 +2301,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2073,12 +2320,19 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
 - packageId: com.unity.modules.assetbundle@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -2090,7 +2344,6 @@ m_ResolvedPackages:
   type: module
   description: 'The AssetBundle module implements the AssetBundle class and related
     APIs to load data from AssetBundles. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.AssetBundleModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2111,6 +2364,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2128,12 +2383,19 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
 - packageId: com.unity.modules.audio@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.audio@1.0.0
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.audio@1.0.0
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -2145,7 +2407,6 @@ m_ResolvedPackages:
   type: module
   description: 'The Audio module implements Unity''s audio system. Scripting API:
     https://docs.unity3d.com/ScriptReference/UnityEngine.AudioModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2166,6 +2427,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2183,12 +2446,19 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
 - packageId: com.unity.modules.cloth@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.cloth@1.0.0
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.cloth@1.0.0
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -2200,7 +2470,6 @@ m_ResolvedPackages:
   type: module
   description: 'The Cloth module implements cloth physics simulation through the
     Cloth component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.ClothModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2225,6 +2494,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2242,12 +2513,19 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
 - packageId: com.unity.modules.director@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.director@1.0.0
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.director@1.0.0
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -2259,7 +2537,6 @@ m_ResolvedPackages:
   type: module
   description: 'The Director module implements the PlayableDirector class. Scripting
     API: https://docs.unity3d.com/ScriptReference/UnityEngine.DirectorModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2288,6 +2565,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2305,12 +2584,19 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
 - packageId: com.unity.modules.imageconversion@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -2321,9 +2607,7 @@ m_ResolvedPackages:
   category: 
   type: module
   description: 'The ImageConversion module implements the ImageConversion class which
-    provides helper methods to convert images from and to PNG, JPEG or EXR formats.
-    Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.ImageConversionModule.html'
-  status: 0
+    provides helper methods for converting image data. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.ImageConversionModule.html'
   errors: []
   versions:
     all:
@@ -2344,6 +2628,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2361,12 +2647,19 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
 - packageId: com.unity.modules.imgui@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.imgui@1.0.0
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.imgui@1.0.0
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -2378,7 +2671,6 @@ m_ResolvedPackages:
   type: module
   description: 'The IMGUI module provides Unity''s immediate mode GUI solution for
     creating in-game and editor user interfaces. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.IMGUIModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2399,6 +2691,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2416,12 +2710,19 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
 - packageId: com.unity.modules.jsonserialize@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -2433,7 +2734,6 @@ m_ResolvedPackages:
   type: module
   description: 'The JSONSerialize module provides the JsonUtility class which lets
     you serialize Unity Objects to JSON format. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.JSONSerializeModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2454,6 +2754,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2471,12 +2773,19 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
 - packageId: com.unity.modules.particlesystem@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -2488,7 +2797,6 @@ m_ResolvedPackages:
   type: module
   description: 'The ParticleSystem module implements Unity''s Particle System. Scripting
     API: https://docs.unity3d.com/ScriptReference/UnityEngine.ParticleSystemModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2509,6 +2817,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2526,12 +2836,19 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
 - packageId: com.unity.modules.physics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.physics@1.0.0
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.physics@1.0.0
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -2543,7 +2860,6 @@ m_ResolvedPackages:
   type: module
   description: 'The Physics module implements 3D physics in Unity. Scripting API:
     https://docs.unity3d.com/ScriptReference/UnityEngine.PhysicsModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2564,6 +2880,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2581,12 +2899,19 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
 - packageId: com.unity.modules.physics2d@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.physics2d@1.0.0
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -2598,7 +2923,6 @@ m_ResolvedPackages:
   type: module
   description: 'The Physics2d module implements 2D physics in Unity. Scripting API:
     https://docs.unity3d.com/ScriptReference/UnityEngine.Physics2DModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2619,6 +2943,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2636,12 +2962,19 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
 - packageId: com.unity.modules.screencapture@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.screencapture@1.0.0
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -2653,7 +2986,6 @@ m_ResolvedPackages:
   type: module
   description: 'The ScreenCapture module provides functionality to take screen shots
     using the ScreenCapture class. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.ScreenCaptureModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2678,6 +3010,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2695,12 +3029,19 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
 - packageId: com.unity.modules.terrain@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.terrain@1.0.0
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.terrain@1.0.0
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -2712,7 +3053,6 @@ m_ResolvedPackages:
   type: module
   description: 'The Terrain module implements Unity''s Terrain rendering engine available
     through the Terrain component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.TerrainModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2733,6 +3073,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2750,12 +3092,19 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
 - packageId: com.unity.modules.terrainphysics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -2767,7 +3116,6 @@ m_ResolvedPackages:
   type: module
   description: 'The TerrainPhysics module connects the Terrain and Physics modules
     by implementing the TerrainCollider component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.TerrainPhysicsModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2796,6 +3144,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2813,12 +3163,19 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
 - packageId: com.unity.modules.tilemap@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.tilemap@1.0.0
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -2829,7 +3186,6 @@ m_ResolvedPackages:
   category: 
   type: module
   description: 'The Tilemap module implements the Tilemap class. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.TilemapModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2854,6 +3210,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2871,12 +3229,19 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
 - packageId: com.unity.modules.ui@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.ui@1.0.0
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.ui@1.0.0
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -2888,7 +3253,6 @@ m_ResolvedPackages:
   type: module
   description: 'The UI module implements basic components required for Unity''s UI
     system Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UIModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2909,6 +3273,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2926,12 +3292,19 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
 - packageId: com.unity.modules.uielements@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.uielements@1.0.0
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.uielements@1.0.0
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -2943,7 +3316,6 @@ m_ResolvedPackages:
   type: module
   description: 'The UIElements module implements the UIElements retained mode UI
     framework. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UIElementsModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -2959,12 +3331,16 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
   resolvedDependencies:
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.hierarchycore
     version: 1.0.0
   keywords: []
   registry:
@@ -2976,6 +3352,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -2993,12 +3371,19 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
 - packageId: com.unity.modules.umbra@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.umbra@1.0.0
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.umbra@1.0.0
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -3010,7 +3395,6 @@ m_ResolvedPackages:
   type: module
   description: 'The Umbra module implements Unity''s occlusion culling system. Scripting
     API: https://docs.unity3d.com/ScriptReference/UnityEngine.UmbraModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -3031,6 +3415,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3048,12 +3434,19 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
 - packageId: com.unity.modules.unityanalytics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -3065,7 +3458,6 @@ m_ResolvedPackages:
   type: module
   description: 'The UnityAnalytics module implements APIs required to use Unity Analytics.
     Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityAnalyticsModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -3094,6 +3486,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3111,12 +3505,19 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
 - packageId: com.unity.modules.unitywebrequest@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -3128,7 +3529,6 @@ m_ResolvedPackages:
   type: module
   description: 'The UnityWebRequest module lets you communicate with http services.
     Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -3149,6 +3549,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3166,12 +3568,19 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
 - packageId: com.unity.modules.unitywebrequestassetbundle@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -3183,7 +3592,6 @@ m_ResolvedPackages:
   type: module
   description: 'The UnityWebRequestAssetBundle module provides the DownloadHandlerAssetBundle
     class to use UnityWebRequest to download Asset Bundles. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestAssetBundleModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -3212,6 +3620,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3229,12 +3639,19 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
 - packageId: com.unity.modules.unitywebrequestaudio@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -3246,7 +3663,6 @@ m_ResolvedPackages:
   type: module
   description: 'The UnityWebRequestAudio module provides the DownloadHandlerAudioClip
     class to use UnityWebRequest to download AudioClips. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestAudioModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -3275,6 +3691,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3292,12 +3710,19 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
 - packageId: com.unity.modules.unitywebrequesttexture@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -3309,7 +3734,6 @@ m_ResolvedPackages:
   type: module
   description: 'The UnityWebRequestTexture module provides the DownloadHandlerTexture
     class to use UnityWebRequest to download Textures. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestTextureModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -3338,6 +3762,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3355,12 +3781,19 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
 - packageId: com.unity.modules.unitywebrequestwww@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -3372,7 +3805,6 @@ m_ResolvedPackages:
   type: module
   description: 'The UnityWebRequestWWW module implements the legacy WWW lets you
     communicate with http services. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestWWWModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -3417,6 +3849,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3434,12 +3868,19 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
 - packageId: com.unity.modules.vehicles@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.vehicles@1.0.0
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -3451,7 +3892,6 @@ m_ResolvedPackages:
   type: module
   description: 'The Vehicles module implements vehicle physics simulation through
     the WheelCollider component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.VehiclesModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -3476,6 +3916,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3493,12 +3935,19 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
 - packageId: com.unity.modules.video@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.video@1.0.0
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.video@1.0.0
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -3510,7 +3959,6 @@ m_ResolvedPackages:
   type: module
   description: 'The Video module lets you play back video files in your content.
     Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.VideoModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -3543,6 +3991,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3560,12 +4010,19 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
 - packageId: com.unity.modules.vr@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.vr@1.0.0
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.vr@1.0.0
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -3577,7 +4034,6 @@ m_ResolvedPackages:
   type: module
   description: 'The VR module implements support for virtual reality devices in Unity.
     Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.VRModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -3612,6 +4068,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3629,12 +4087,19 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
 - packageId: com.unity.modules.wind@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.wind@1.0.0
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.wind@1.0.0
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -3646,7 +4111,6 @@ m_ResolvedPackages:
   type: module
   description: 'The Wind module implements the WindZone component which can affect
     terrain rendering and particle simulations. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.WindModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -3667,6 +4131,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3684,12 +4150,19 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
 - packageId: com.unity.modules.xr@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.xr@1.0.0
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.xr@1.0.0
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -3701,7 +4174,6 @@ m_ResolvedPackages:
   type: module
   description: 'The XR module contains the VR and AR related platform support functionality.
     Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.XRModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -3734,6 +4206,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3751,12 +4225,19 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
 - packageId: com.unity.modules.subsystems@1.0.0
   testable: 0
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.subsystems@1.0.0
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -3768,7 +4249,6 @@ m_ResolvedPackages:
   type: module
   description: 'The Subsystem module contains the definitions and runtime support
     for general subsystems in Unity. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.SubsystemsModule.html'
-  status: 0
   errors: []
   versions:
     all:
@@ -3793,6 +4273,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 0
   documentationUrl: 
@@ -3810,12 +4292,82 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
+- packageId: com.unity.modules.hierarchycore@1.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 1.0.0
+  source: 2
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.modules.hierarchycore@1.0.0
+  assetPath: Packages/com.unity.modules.hierarchycore
+  name: com.unity.modules.hierarchycore
+  displayName: Hierarchy Core
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: module
+  description: 'Module that contains a high-performance hierarchy container. Scripting
+    API: https://docs.unity3d.com/ScriptReference/UnityEngine.HierarchyCoreModule.html'
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    recommended: 1.0.0
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 
 - packageId: com.unity.editorcoroutines@1.0.0
   testable: 0
   isDirectDependency: 0
   version: 1.0.0
   source: 1
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.editorcoroutines@1.0.0
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.editorcoroutines@1.0.0
   assetPath: Packages/com.unity.editorcoroutines
   name: com.unity.editorcoroutines
   displayName: Editor Coroutines
@@ -3828,7 +4380,6 @@ m_ResolvedPackages:
   description: 'The editor coroutines package allows developers to start constructs
     similar to Unity''s monobehaviour based coroutines within the editor using abitrary
     objects. '
-  status: 0
   errors: []
   versions:
     all:
@@ -3858,6 +4409,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637232611380000000
   documentationUrl: 
@@ -3875,12 +4428,19 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 7d48783e7b8cfcee5f8ef9ba787ed0d9dad4ebca
 - packageId: com.unity.inputsystem@1.7.0
   testable: 0
   isDirectDependency: 0
   version: 1.7.0
   source: 1
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.inputsystem@1.7.0
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.inputsystem@1.7.0
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -3892,7 +4452,6 @@ m_ResolvedPackages:
   type: assets
   description: A new input system which can be used as a more extensible and customizable
     alternative to Unity's classic input system in UnityEngine.Input.
-  status: 0
   errors: []
   versions:
     all:
@@ -3939,10 +4498,14 @@ m_ResolvedPackages:
     - 1.7.0
     - 1.8.0-pre.1
     - 1.8.0-pre.2
+    - 1.8.0
+    - 1.8.1
     compatible:
     - 1.7.0
     - 1.8.0-pre.1
     - 1.8.0-pre.2
+    - 1.8.0
+    - 1.8.1
     recommended: 1.7.0
     deprecated: []
   dependencies:
@@ -3956,6 +4519,8 @@ m_ResolvedPackages:
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.hierarchycore
     version: 1.0.0
   keywords:
   - input
@@ -3975,6 +4540,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638277060810000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.inputsystem@1.7/manual/index.html
@@ -3986,18 +4553,46 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.7.0
-    nextVersion: 
+    nextVersion: 1.8.0-pre.1
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Added\n- Preliminary support for visionOS.\n- Show
+    a list of `Derived Bindings` underneath the Binding Path editor to show all controls
+    that matched.\n\n### Changed\n- Changed the `InputAction` constructors so it
+    generates an ID for the action and the optional binding parameter. This is intended
+    to improve the serialization of input actions on behaviors when created through
+    API when the property drawer in the Inspector window does not have a chance to
+    generate an ID.\n\n### Fixed\n- Fixed missing prefab errors in InputDeviceTester
+    project ([case ISXB-420](https://issuetracker.unity3d.com/product/unity/issues/guid/ISXB-420)).\n-
+    Fixed serialization migration in the Tracked Pose Driver component causing bindings
+    to clear when prefabs are used in some cases ([case ISXB-512](https://issuetracker.unity3d.com/product/unity/issues/guid/ISXB-512),
+    [case ISXB-521](https://issuetracker.unity3d.com/product/unity/issues/guid/ISXB-521)).\n-
+    Fixed Tracked Pose Driver to use `Transform.SetLocalPositionAndRotation` when
+    available to improve performance. Based on the user contribution from [DevDunk](https://forum.unity.com/members/devdunk.4432119/)
+    in a [forum post](https://forum.unity.com/threads/more-performant-tracked-pose-driver-solution-included.1462691).\n-
+    Fixed the `Clone` methods of `InputAction` and `InputActionMap` so it copies
+    the Initial State Check flag (`InputAction.wantsInitialStateCheck`) of input
+    actions.\n- Fixed the \"Release tests throws exception in InputSystem\" bug ([case
+    ISXB-581](https://issuetracker.unity3d.com/issues/release-tests-fail-when-input-system-package-is-installed)).\n-
+    Fixed issues with generating Precompiled Layouts for devices which are not defined
+    in a namespace\n- Fixed an issue where some controls like `QuaternionControl`
+    could not be included in a Precompiled Layout because the generated code could
+    not access a setter on child control properties."}'
+  assetStore:
+    productId: 
+  fingerprint: a74895ba94362b3b9255c9cc3828ee44c4eafcc3
 - packageId: com.unity.xr.core-utils@2.2.3
   testable: 0
   isDirectDependency: 0
   version: 2.2.3
   source: 1
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.xr.core-utils@2.2.3
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.xr.core-utils@2.2.3
   assetPath: Packages/com.unity.xr.core-utils
   name: com.unity.xr.core-utils
   displayName: XR Core Utilities
@@ -4015,7 +4610,6 @@ m_ResolvedPackages:
     extensions\n\u25AA Editor GUI\n  \u25AA Flags Property Drawer\n\u25AA Scriptable
     Settings (serialized project settings)\n\u25AA Conditional Compilation Utility\n\u25AA
     XR Origin Implementation"
-  status: 0
   errors: []
   versions:
     all:
@@ -4080,6 +4674,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638269927990000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.core-utils@2.2/manual/index.html
@@ -4097,12 +4693,22 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n\n- Fixed [`TransformExtensions`](xref:Unity.XR.CoreUtils.TransformExtensions)
+    methods to use `Transform.GetPositionAndRotation`/`Transform.GetLocalPositionAndRotation`
+    and `Transform.SetPositionAndRotation`/`Transform.SetLocalPositionAndRotation`
+    when available to improve performance."}'
+  assetStore:
+    productId: 
+  fingerprint: 42074953780da38aca7bce8671a8a702a862b57e
 - packageId: com.unity.xr.management@4.4.0
   testable: 0
   isDirectDependency: 0
   version: 4.4.0
   source: 1
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.xr.management@4.4.0
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.xr.management@4.4.0
   assetPath: Packages/com.unity.xr.management
   name: com.unity.xr.management
   displayName: XR Plugin Management
@@ -4115,7 +4721,6 @@ m_ResolvedPackages:
   description: Package that provides simple management of XR plug-ins. Manages and
     offers help with loading, initialization, settings, and build support for XR
     plug-ins.
-  status: 0
   errors: []
   versions:
     all:
@@ -4216,6 +4821,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638224209960000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.management@4.4/manual/index.html
@@ -4233,12 +4840,22 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Added\n- Created `AndroidManifestProcessor` as
+    an Android manifest management system for XR packages and providers that target
+    platforms based on Android.\n\n### Removed\n- AndroidManifest.xml is no longer
+    deleted after each Android build."}'
+  assetStore:
+    productId: 
+  fingerprint: 23603bb7faacb609310a19e54cfda9101dc5dd20
 - packageId: com.unity.mathematics@1.2.6
   testable: 0
   isDirectDependency: 0
   version: 1.2.6
   source: 1
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.mathematics@1.2.6
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.mathematics@1.2.6
   assetPath: Packages/com.unity.mathematics
   name: com.unity.mathematics
   displayName: Mathematics
@@ -4250,7 +4867,6 @@ m_ResolvedPackages:
   type: asset
   description: Unity's C# SIMD math library providing vector types and math functions
     with a shader like syntax.
-  status: 0
   errors: []
   versions:
     all:
@@ -4292,6 +4908,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637841876140000000
   documentationUrl: 
@@ -4309,12 +4927,19 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.ext.nunit@1.0.6
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 54f22b9fcdf1466cdc42fb4b6415f14c901d5971
+- packageId: com.unity.ext.nunit@2.0.5
   testable: 0
   isDirectDependency: 0
-  version: 1.0.6
+  version: 2.0.5
   source: 1
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.ext.nunit@1.0.6
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.ext.nunit@2.0.5
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -4323,10 +4948,9 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Libraries
-  type: asset
-  description: Custom version of the nunit package build to work with Unity. Used
-    by the Unity Test Framework.
-  status: 0
+  type: assets
+  description: A custom version of NUnit used by Unity Test Framework. Based on NUnit
+    version 3.5 and works with all platforms, il2cpp and Mono AOT.
   errors: []
   versions:
     all:
@@ -4341,12 +4965,8 @@ m_ResolvedPackages:
     - 2.0.4
     - 2.0.5
     compatible:
-    - 1.0.6
-    - 2.0.2
-    - 2.0.3
-    - 2.0.4
     - 2.0.5
-    recommended: 1.0.6
+    recommended: 2.0.5
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -4363,29 +4983,38 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637429759280000000
-  documentationUrl: 
+  datePublishedTicks: 638236642220000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.ext.nunit@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ext.nunit.git
-    revision: 29ea4d6504a5f58fb3a6934db839aa80ae6d9d88
+    revision: 469fe0d46bfc26fbb32a53885ca4d12abcdae4ae
     path: 
   unityLifecycle:
-    version: 1.0.6
+    version: 2.0.5
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.ide.visualstudio@2.0.21
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"- Fixing bug for InstanceID as struct changes"}'
+  assetStore:
+    productId: 
+  fingerprint: 60ef35ffd3cd5e2f5c8887a4a4ca6148854cd092
+- packageId: com.unity.ide.visualstudio@2.0.22
   testable: 0
   isDirectDependency: 0
-  version: 2.0.21
+  version: 2.0.22
   source: 1
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.ide.visualstudio@2.0.21
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.ide.visualstudio@2.0.22
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -4398,7 +5027,6 @@ m_ResolvedPackages:
   description: Code editor integration for supporting Visual Studio as code editor
     for unity. Adds support for generating csproj files for intellisense purposes,
     auto discovery of installations, etc.
-  status: 0
   errors: []
   versions:
     all:
@@ -4427,7 +5055,6 @@ m_ResolvedPackages:
     - 2.0.21
     - 2.0.22
     compatible:
-    - 2.0.21
     - 2.0.22
     recommended: 2.0.22
     deprecated: []
@@ -4436,9 +5063,9 @@ m_ResolvedPackages:
     version: 1.1.9
   resolvedDependencies:
   - name: com.unity.test-framework
-    version: 1.1.33
+    version: 1.3.9
   - name: com.unity.ext.nunit
-    version: 1.0.6
+    version: 2.0.5
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
@@ -4453,29 +5080,43 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638300315250000000
+  datePublishedTicks: 638326061910000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-    revision: eb2b500b99f6429d3d9dcb8acbcbd366dfbb42be
+    revision: 700b44077345e97d37d464ff25507638983aed64
     path: 
   unityLifecycle:
-    version: 2.0.21
+    version: 2.0.22
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.ide.rider@3.0.25
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"Integration:\n\n- Add support for `XDG_DATA_DIRS` and
+    `.desktop` files on Linux for `VS Code` discovery.\n- Use compile-time platform-specifics
+    instead of using runtime conditions.\n\nProject generation:\n\n- Suppress `USG0001`
+    warnings.\n- Mark referenced assemblies as private (to not copy extra files to
+    output directory when building).\n- Add Unity capability to SDK-Style projects.\n-
+    Prevent circular dependency errors with SDK-Style projects."}'
+  assetStore:
+    productId: 
+  fingerprint: 8140e851d83e922ca2021b04a89519de94ebe38c
+- packageId: com.unity.ide.rider@3.0.26
   testable: 0
   isDirectDependency: 0
-  version: 3.0.25
+  version: 3.0.26
   source: 1
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.ide.rider@3.0.25
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.ide.rider@3.0.26
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -4488,7 +5129,6 @@ m_ResolvedPackages:
   description: The JetBrains Rider Editor package provides an integration for using
     the JetBrains Rider IDE as a code editor for Unity. It adds support for generating
     .csproj files for code completion and auto-discovery of installations.
-  status: 0
   errors: []
   versions:
     all:
@@ -4533,18 +5173,19 @@ m_ResolvedPackages:
     - 3.0.25
     - 3.0.26
     - 3.0.27
+    - 3.0.28
     compatible:
-    - 3.0.25
     - 3.0.26
     - 3.0.27
-    recommended: 3.0.27
+    - 3.0.28
+    recommended: 3.0.28
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
   resolvedDependencies:
   - name: com.unity.ext.nunit
-    version: 1.0.6
+    version: 2.0.5
   keywords: []
   registry:
     id: main
@@ -4555,97 +5196,39 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638300315270000000
+  datePublishedTicks: 638326061920000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: e103b4771a884e656407e1b7219e5e3c20222552
+    revision: 2b29b1152946c13d1ecebf6fc681a59cd8b4d399
     path: 
   unityLifecycle:
-    version: 3.0.25
+    version: 3.0.26
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.ide.vscode@1.2.5
-  testable: 0
-  isDirectDependency: 0
-  version: 1.2.5
-  source: 1
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.ide.vscode@1.2.5
-  assetPath: Packages/com.unity.ide.vscode
-  name: com.unity.ide.vscode
-  displayName: Visual Studio Code Editor
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: asset
-  description: Code editor integration for supporting Visual Studio Code as code
-    editor for unity. Adds support for generating csproj files for intellisense purposes,
-    auto discovery of installations, etc.
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 1.0.2
-    - 1.0.3
-    - 1.0.7
-    - 1.1.0
-    - 1.1.2
-    - 1.1.3
-    - 1.1.4
-    - 1.2.0
-    - 1.2.1
-    - 1.2.2
-    - 1.2.3
-    - 1.2.4
-    - 1.2.5
-    compatible:
-    - 1.2.5
-    recommended: 1.2.5
-    deprecated: []
-  dependencies: []
-  resolvedDependencies: []
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637800255360000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.com/Unity-Technologies/com.unity.ide.vscode.git
-    revision: b0740c80bfc2440527c317109f7c3d9100132722
-    path: 
-  unityLifecycle:
-    version: 1.2.5
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"- https://github.com/JetBrains/resharper-unity/issues/2421\n-
+    https://github.com/JetBrains/resharper-unity/issues/2422"}'
+  assetStore:
+    productId: 
+  fingerprint: 69dbf8aa2cac2d143ced0023ac7cf441bce36f47
 - packageId: com.unity.performance.profile-analyzer@1.2.2
   testable: 0
   isDirectDependency: 0
   version: 1.2.2
   source: 1
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.performance.profile-analyzer@1.2.2
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.performance.profile-analyzer@1.2.2
   assetPath: Packages/com.unity.performance.profile-analyzer
   name: com.unity.performance.profile-analyzer
   displayName: Profile Analyzer
@@ -4660,7 +5243,6 @@ m_ResolvedPackages:
     in the Profiler.\n\nMain features: \n\u25AA Multi-frame analysis of a single
     set of Profiler CPU data \n\u25AA Comparison of two multi-frame profile scans
     \n\n"
-  status: 0
   errors: []
   versions:
     all:
@@ -4694,6 +5276,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638108624620000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.performance.profile-analyzer@1.2/manual/index.html
@@ -4711,12 +5295,20 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n\n* Fixed exception thrown when removing
+    marker."}'
+  assetStore:
+    productId: 
+  fingerprint: fe7acfd2717a98ded6ddc33be6b2ebe4459a2add
 - packageId: com.unity.testtools.codecoverage@1.2.4
   testable: 0
   isDirectDependency: 0
   version: 1.2.4
   source: 1
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.testtools.codecoverage@1.2.4
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.testtools.codecoverage@1.2.4
   assetPath: Packages/com.unity.testtools.codecoverage
   name: com.unity.testtools.codecoverage
   displayName: Code Coverage
@@ -4730,7 +5322,6 @@ m_ResolvedPackages:
     automated tests. Additionally, the Code Coverage package offers a Coverage Recording
     feature which allows capturing coverage data on demand, for manual testing or
     when there are no automated tests in the project.
-  status: 0
   errors: []
   versions:
     all:
@@ -4777,9 +5368,9 @@ m_ResolvedPackages:
     version: 1.0.1
   resolvedDependencies:
   - name: com.unity.test-framework
-    version: 1.1.33
+    version: 1.3.9
   - name: com.unity.ext.nunit
-    version: 1.0.6
+    version: 2.0.5
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
@@ -4800,6 +5391,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638212235100000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.testtools.codecoverage@1.2/manual/index.html
@@ -4817,12 +5410,24 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
-- packageId: com.unity.2d.common@8.0.1
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixes\n- Fixed failing to gather code coverage
+    for normal methods in generic classes (case [COV-27](https://issuetracker.unity3d.com/issues/non-generic-methods-in-generic-classes-always-show-no-coverage)).\n-
+    Documentation: Corrected *Settings.json* path in `useProjectSettings` section
+    in *-coverageOptions* (case [COV-26](https://issuetracker.unity3d.com/issues/documentation-for-useprojectsettings-references-incorrect-settings-dot-json-path)).\n-
+    Make sure *Auto Generate Report* defaults to true when running from the command
+    line (case [COV-25](https://issuetracker.unity3d.com/issues/useprojectsettings-does-not-generate-report-until-auto-generate-report-is-toggled-off-and-on-again))."}'
+  assetStore:
+    productId: 
+  fingerprint: fd8eb4b4ddb5123ee0c39dfc3ed9b66004427011
+- packageId: com.unity.2d.common@9.0.2
   testable: 0
   isDirectDependency: 0
-  version: 8.0.1
+  version: 9.0.2
   source: 1
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.2d.common@8.0.1
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.2d.common@9.0.2
   assetPath: Packages/com.unity.2d.common
   name: com.unity.2d.common
   displayName: 2D Common
@@ -4831,17 +5436,71 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 2D
-  type: 
+  type: assets
   description: 2D Common is a package that contains shared functionalities that are
     used by most of the other 2D packages.
-  status: 0
   errors: []
   versions:
     all:
+    - 1.0.9-preview.1
+    - 1.0.9-preview.2
+    - 1.0.10-preview
+    - 1.0.11-preview.1
+    - 1.1.0-preview.1
+    - 1.1.0-preview.2
+    - 1.2.0-preview.1
+    - 2.0.1
+    - 2.0.2
+    - 2.1.0
+    - 2.1.1
+    - 2.1.2
+    - 3.0.0
+    - 3.0.1
+    - 4.0.0
+    - 4.0.1
+    - 4.0.2
+    - 4.0.3
+    - 4.0.4
+    - 4.1.0
+    - 4.2.0
+    - 4.2.1
+    - 5.0.0-pre.1
+    - 5.0.0-pre.2
+    - 5.0.0
+    - 6.0.0-pre.2
+    - 6.0.0-pre.3
+    - 6.0.0-pre.4
+    - 6.0.0
+    - 6.0.1
+    - 6.0.2
+    - 6.0.3
+    - 6.0.4
+    - 6.0.5
+    - 6.0.6
+    - 6.0.7
+    - 7.0.0-pre.3
+    - 7.0.0-pre.4
+    - 7.0.0
+    - 7.0.1
+    - 7.0.2
+    - 7.0.3
+    - 8.0.0-pre.1
+    - 8.0.0-pre.2
+    - 8.0.0
     - 8.0.1
+    - 8.0.2
+    - 9.0.0-pre.1
+    - 9.0.0-pre.2
+    - 9.0.0
+    - 9.0.1
+    - 9.0.2
+    - 9.0.3
+    - 9.0.4
     compatible:
-    - 8.0.1
-    recommended: 8.0.1
+    - 9.0.2
+    - 9.0.3
+    - 9.0.4
+    recommended: 9.0.4
     deprecated: []
   dependencies:
   - name: com.unity.2d.sprite
@@ -4853,7 +5512,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.animation
     version: 1.0.0
   - name: com.unity.burst
-    version: 1.7.3
+    version: 1.8.4
   resolvedDependencies:
   - name: com.unity.2d.sprite
     version: 1.0.0
@@ -4866,6 +5525,8 @@ m_ResolvedPackages:
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.hierarchycore
     version: 1.0.0
   - name: com.unity.modules.animation
     version: 1.0.0
@@ -4882,29 +5543,40 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
+  datePublishedTicks: 638294344900000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.2d.common@9.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 6fc635d83d4bb0b2640893b8d4a0f3934044aeb5
+    revision: b0f3a8f8d95618bb6a299742c1bbd4e96699180b
     path: 
   unityLifecycle:
-    version: 8.0.1
+    version: 9.0.2
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Added\n- Added Samples for SpriteAtlas.\n\n###
+    Fixed\n- Fixed case where PVRTC compression format for the iOS platform is not
+    supported. (Case DANB-500)\n\n(Case DANB-500)"}'
+  assetStore:
+    productId: 
+  fingerprint: 734e420e5f573eca7938d5e584ce5d150f0f11f3
 - packageId: com.unity.collections@1.2.4
   testable: 0
   isDirectDependency: 0
   version: 1.2.4
   source: 1
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.collections@1.2.4
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.collections@1.2.4
   assetPath: Packages/com.unity.collections
   name: com.unity.collections
   displayName: Collections
@@ -4916,7 +5588,6 @@ m_ResolvedPackages:
   type: asset
   description: A C# collections library providing data structures that can be used
     in jobs, and optimized by Burst compiler.
-  status: 0
   errors: []
   versions:
     all:
@@ -4982,6 +5653,8 @@ m_ResolvedPackages:
     - 2.3.0-pre.3
     - 2.4.0-exp.2
     - 2.4.0-pre.2
+    - 2.4.0-pre.5
+    - 2.4.0
     compatible:
     - 1.2.4
     - 1.3.1
@@ -5000,6 +5673,8 @@ m_ResolvedPackages:
     - 2.3.0-pre.3
     - 2.4.0-exp.2
     - 2.4.0-pre.2
+    - 2.4.0-pre.5
+    - 2.4.0
     recommended: 1.2.4
     deprecated: []
   dependencies:
@@ -5013,9 +5688,9 @@ m_ResolvedPackages:
   - name: com.unity.mathematics
     version: 1.2.6
   - name: com.unity.test-framework
-    version: 1.1.33
+    version: 1.3.9
   - name: com.unity.ext.nunit
-    version: 1.0.6
+    version: 2.0.5
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
@@ -5033,6 +5708,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637908244640000000
   documentationUrl: 
@@ -5044,18 +5721,305 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.2.4
+    nextVersion: 2.1.0-pre.6
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 420c69a340a1a9bd856714736eb8ea50af4311ae
+- packageId: com.unity.xr.arkit@6.0.0-pre.3
+  testable: 0
+  isDirectDependency: 0
+  version: 6.0.0-pre.3
+  source: 1
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.xr.arkit@6.0.0-pre.3
+  assetPath: Packages/com.unity.xr.arkit
+  name: com.unity.xr.arkit
+  displayName: Apple ARKit XR Plugin
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: assets
+  description: 'Provides native Apple ARKit integration for use with Unity''s multi-platform
+    XR API.
+
+    Supports the following features:
+
+    -Efficient Background Rendering
+
+    -Horizontal
+    Planes
+
+    -Depth Data
+
+    -Anchors
+
+    -Hit Testing
+
+    -Face Tracking
+
+    -Environment
+    Probes
+
+    -Meshing
+
+    -Occlusion
+
+
+    * Apple and ARKit are trademarks of
+    Apple Inc., registered in the U.S. and other countries and regions.'
+  errors: []
+  versions:
+    all:
+    - 1.0.0-preview.11
+    - 1.0.0-preview.12
+    - 1.0.0-preview.13
+    - 1.0.0-preview.14
+    - 1.0.0-preview.15
+    - 1.0.0-preview.16
+    - 1.0.0-preview.17
+    - 1.0.0-preview.20
+    - 1.0.0-preview.23
+    - 1.0.0-preview.27
+    - 2.0.1
+    - 2.1.0-preview.3
+    - 2.1.0-preview.5
+    - 2.1.1
+    - 2.1.2
+    - 2.1.4
+    - 2.1.9
+    - 2.1.10
+    - 2.1.14
+    - 2.1.16
+    - 2.1.18
+    - 2.1.19
+    - 2.2.0-preview.1
+    - 2.2.0-preview.2
+    - 2.2.0-preview.3
+    - 2.2.0-preview.4
+    - 2.2.0-preview.5
+    - 2.2.0-preview.6
+    - 3.0.0-preview.1
+    - 3.0.0-preview.2
+    - 3.0.0-preview.3
+    - 3.0.0-preview.4
+    - 3.0.1
+    - 3.0.3
+    - 3.0.4
+    - 3.1.0-preview.1
+    - 3.1.0-preview.2
+    - 3.1.0-preview.4
+    - 3.1.0-preview.6
+    - 3.1.0-preview.7
+    - 3.1.0-preview.8
+    - 3.1.3
+    - 3.1.7
+    - 3.1.8
+    - 3.1.10
+    - 4.0.0-preview.1
+    - 4.0.0-preview.3
+    - 4.0.1
+    - 4.0.2
+    - 4.0.8
+    - 4.0.9
+    - 4.0.10
+    - 4.0.12
+    - 4.1.0-preview.1
+    - 4.1.0-preview.2
+    - 4.1.0-preview.3
+    - 4.1.0-preview.5
+    - 4.1.0-preview.6
+    - 4.1.0-preview.7
+    - 4.1.0-preview.9
+    - 4.1.0-preview.10
+    - 4.1.0-preview.11
+    - 4.1.0-preview.12
+    - 4.1.0-preview.13
+    - 4.1.1
+    - 4.1.3
+    - 4.1.5
+    - 4.1.7
+    - 4.1.9
+    - 4.1.10
+    - 4.1.12
+    - 4.1.13
+    - 4.2.0-pre.2
+    - 4.2.0-pre.3
+    - 4.2.0-pre.4
+    - 4.2.0-pre.7
+    - 4.2.0-pre.8
+    - 4.2.0-pre.9
+    - 4.2.0-pre.10
+    - 4.2.0-pre.12
+    - 4.2.0
+    - 4.2.1
+    - 4.2.2
+    - 4.2.3
+    - 4.2.6
+    - 4.2.7
+    - 4.2.8
+    - 4.2.9
+    - 4.2.10
+    - 5.0.0-pre.5
+    - 5.0.0-pre.6
+    - 5.0.0-pre.7
+    - 5.0.0-pre.8
+    - 5.0.0-pre.9
+    - 5.0.0-pre.12
+    - 5.0.0-pre.13
+    - 5.0.2
+    - 5.0.3
+    - 5.0.4
+    - 5.0.5
+    - 5.0.6
+    - 5.0.7
+    - 5.1.0-pre.1
+    - 5.1.0-pre.2
+    - 5.1.0-pre.3
+    - 5.1.0-pre.4
+    - 5.1.0-pre.6
+    - 5.1.0-pre.8
+    - 5.1.0-pre.9
+    - 5.1.0-pre.10
+    - 5.1.0
+    - 5.1.1
+    - 5.1.2
+    - 5.1.3
+    - 6.0.0-pre.3
+    - 6.0.0-pre.4
+    - 6.0.0-pre.5
+    - 6.0.0-pre.6
+    - 6.0.0-pre.7
+    - 6.0.0-pre.8
+    - 6.0.1
+    compatible:
+    - 6.0.0-pre.3
+    - 6.0.0-pre.4
+    - 6.0.0-pre.5
+    - 6.0.0-pre.6
+    - 6.0.0-pre.7
+    - 6.0.0-pre.8
+    recommended: 6.0.0-pre.8
+    deprecated: []
+  dependencies:
+  - name: com.unity.editorcoroutines
+    version: 1.0.0
+  - name: com.unity.xr.arfoundation
+    version: 6.0.0-pre.3
+  - name: com.unity.xr.core-utils
+    version: 2.2.2
+  - name: com.unity.xr.management
+    version: 4.4.0
+  resolvedDependencies:
+  - name: com.unity.editorcoroutines
+    version: 1.0.0
+  - name: com.unity.xr.arfoundation
+    version: 6.0.0-pre.3
+  - name: com.unity.inputsystem
+    version: 1.7.0
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.hierarchycore
+    version: 1.0.0
+  - name: com.unity.xr.core-utils
+    version: 2.2.3
+  - name: com.unity.modules.xr
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.subsystems
+    version: 1.0.0
+  - name: com.unity.xr.management
+    version: 4.4.0
+  - name: com.unity.modules.vr
+    version: 1.0.0
+  - name: com.unity.xr.legacyinputhelpers
+    version: 2.1.10
+  - name: com.unity.ugui
+    version: 2.0.0
+  - name: com.unity.mathematics
+    version: 1.2.6
+  - name: com.unity.modules.particlesystem
+    version: 1.0.0
+  - name: com.unity.modules.unityanalytics
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  keywords:
+  - arkit
+  - ar
+  - augmented
+  - xr
+  - reality
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638303670650000000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.arkit@6.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/arfoundation.git
+    revision: a042bebcd46c7ff6c9b11fbb803c8def4eea81e3
+    path: 
+  unityLifecycle:
+    version: 6.0.0-pre.3
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Deprecated\n\n- Several subsystems have been deprecated
+    and renamed for consistency with other subsystems. Unity''s API Updater should
+    automatically convert any deprecated APIs references to the new APIs when the
+    project is loaded into the Editor again.\n  - `ARKitXRObjectTrackingSubsystem`
+    has been renamed to `ARKitObjectTrackingSubsystem`.\n  - `ARKitXRPlaneSubsystem`
+    has been renamed to `ARKitPlaneSubsystem`.\n  - `ARKitXRPointCloudSubsystem`
+    has been renamed to `ARKitPointCloudSubsystem`.\n\n### Removed\n\n- Removed the
+    `Description` attribute from `ARMeshClassification` enum as the attribute was
+    unused.\n- Removed the following deprecated APIs:\n  - `ARKitErrorCode.CollaborationDataUnavailable`
+    enum value\n  - `ARKitSessionSubsystem.coachingGoal` property\n  - `ARKitSettingsProvider`
+    class\n  - `NSError.isNull` property\n\n### Fixed\n\n- Fixed issue [ARKB-1](https://issuetracker.unity3d.com/issues/mutableruntimereferenceimagelibrary-dot-scheduleaddimagewithvalidationjob-intermittently-does-not-set-the-reference-image-name)
+    where adding duplicate images to the [ARTrackedImageManager.referenceLibrary](xref:UnityEngine.XR.ARFoundation.ARTrackedImageManager.referenceLibrary)
+    would cause `ARTrackedImage`''s reference image data to be empty when `ARTrackedImageManager.trackedImagesChanged`
+    is invoked."}'
+  assetStore:
+    productId: 
+  fingerprint: 79a0f8c52ab395350660b434ce556e7be4abb4d0
 - packageId: com.unity.xr.legacyinputhelpers@2.1.10
   testable: 0
   isDirectDependency: 0
   version: 2.1.10
   source: 1
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.10
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.xr.legacyinputhelpers@2.1.10
   assetPath: Packages/com.unity.xr.legacyinputhelpers
   name: com.unity.xr.legacyinputhelpers
   displayName: XR Legacy Input Helpers
@@ -5071,7 +6035,6 @@ m_ResolvedPackages:
     track input devices, the XR Bindings Seeding Tool adds a menu item under the
     'Assets' menu which populates the Input Asset with Unity's crossplatform Input
     Bindings
-  status: 0
   errors: []
   versions:
     all:
@@ -5135,6 +6098,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637958908030000000
   documentationUrl: 
@@ -5152,12 +6117,22 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"Fixed a build error about a mismatch of the serialized
+    fields between Editor and Player due to `m_PoseProviderComponent`. That field
+    and its type is now always included, not just when `ENABLE_AR` or `ENABLE_VR`
+    are defined."}'
+  assetStore:
+    productId: 
+  fingerprint: 4716850f3b0c9a398c68cd272d279e68245c49a7
 - packageId: com.unity.settings-manager@2.0.1
   testable: 0
   isDirectDependency: 0
   version: 2.0.1
   source: 1
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.settings-manager@2.0.1
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.settings-manager@2.0.1
   assetPath: Packages/com.unity.settings-manager
   name: com.unity.settings-manager
   displayName: Settings Manager
@@ -5169,7 +6144,6 @@ m_ResolvedPackages:
   type: asset
   description: A framework for making any serializable field a setting, complete
     with a pre-built settings interface.
-  status: 0
   errors: []
   versions:
     all:
@@ -5197,6 +6171,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 637744099390000000
   documentationUrl: 
@@ -5214,12 +6190,19 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 56a930affa1e4462d3595b5c19a1c2a4bf2015d2
 - packageId: com.unity.burst@1.8.9
   testable: 0
   isDirectDependency: 0
   version: 1.8.9
   source: 1
-  resolvedPath: D:\UnityProject\OctopusWar\OctopusWar\Library\PackageCache\com.unity.burst@1.8.9
+  resolvedPath: D:\UnityProject\OctopusWar2\OctopusWar\OctopusWar\Library\PackageCache\com.unity.burst@1.8.9
   assetPath: Packages/com.unity.burst
   name: com.unity.burst
   displayName: Burst
@@ -5231,7 +6214,6 @@ m_ResolvedPackages:
   type: assets
   description: Burst is a compiler that translates from IL/.NET bytecode to highly
     optimized native code using LLVM.
-  status: 0
   errors: []
   versions:
     all:
@@ -5362,12 +6344,16 @@ m_ResolvedPackages:
     - 1.8.10
     - 1.8.11
     - 1.8.12
+    - 1.8.13
+    - 1.8.14
     compatible:
     - 1.8.9
     - 1.8.10
     - 1.8.11
     - 1.8.12
-    recommended: 1.8.12
+    - 1.8.13
+    - 1.8.14
+    recommended: 1.8.14
     deprecated: []
   dependencies:
   - name: com.unity.mathematics
@@ -5385,6 +6371,8 @@ m_ResolvedPackages:
     capabilities: 7
     configSource: 0
   hideInEditor: 1
+  entitlements:
+    licensingModel: 1
   isAssetStorePackage: 0
   datePublishedTicks: 638314141790000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.burst@1.8/manual/index.html
@@ -5402,3 +6390,10 @@ m_ResolvedPackages:
     deprecationMessage: 
   isDeprecated: 0
   deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Fixed\n\n### Added\n\n### Removed\n\n### Changed"}'
+  assetStore:
+    productId: 
+  fingerprint: d6b95a30a032b6a5a247f455d2d5b74e45061777
